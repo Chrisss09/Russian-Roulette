@@ -29,3 +29,9 @@ body{
     position: relative;
     transform: scale(1);
 }
+
+.face, .back-card {
+    width: 138px;
+    height: 130px;
+    position: absolute;
+}

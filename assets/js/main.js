@@ -12,8 +12,6 @@ function flipCard() {
     } else {
         flippedCard = false;
         secondCard = this;
-
-        console.log({firstCard, secondCard});
     }
 }
 

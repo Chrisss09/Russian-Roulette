@@ -13,6 +13,15 @@ body{
     padding-top: 15px;
 }
 
+.russian-roulette {
+    margin-top: 80px;
+    width: 640px;
+    height: 640px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .face{
     width: 138px;
     height: 130px;

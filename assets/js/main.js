@@ -9,8 +9,11 @@ function flipCard() {
     if(!flippedCard) {
         flippedCard = true;
         firstCard = this;
-    
-        console.log({flippedCard, firstCard});
+    } else {
+        flippedCard = false;
+        secondCard = this;
+
+        console.log({firstCard, secondCard});
     }
 }
 

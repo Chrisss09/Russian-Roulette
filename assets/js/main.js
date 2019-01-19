@@ -16,9 +16,12 @@ function flipCard() {
         if(firstCard.dataset.image === secondCard.dataset.image) {
             firstCard.removeEventListener("click", flipCard);
             secondCard.removeEventListener("click", flipCard);
+        } else {
+            setTimeout(() => {
+                firstCard.classList.remove("flip");
+                secondCard.classList.remove("flip"); 
+            }, 700);
         }
-
-        console.log("Code works");
     }
 }
 

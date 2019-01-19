@@ -12,6 +12,9 @@ function flipCard() {
     } else {
         flippedCard = false;
         secondCard = this;
+
+        console.log(firstCard.dataset.image);
+        console.log(secondCard.dataset.image);
     }
 }
 

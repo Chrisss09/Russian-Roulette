@@ -35,6 +35,8 @@ function matchedCard() {
 //Match
 firstCard.removeEventListener("click", flipCard);
 secondCard.removeEventListener("click", flipCard);
+
+fieldReset();
 }
 
 function flipCardBack(){
@@ -43,8 +45,20 @@ function flipCardBack(){
     setTimeout(() => {
         firstCard.classList.remove("flip");
         secondCard.classList.remove("flip"); 
-        stopFlip = false;
+        fieldReset();
     }, 700);
 }
+
+function fieldReset(){
+    [flippedCard, stopFlip] = [false, false];
+    [firstCard, secondCard] = [null, null];
+}
+
+(function shuffleSelection() {
+    cards.forEach(square => {
+        let randomSelection = Math.floor(Math.random() * 12);
+        square.style.order = randomSelection;
+    });
+})();
 
 cards.forEach(square => square.addEventListener('click', flipCard));

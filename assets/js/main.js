@@ -6,6 +6,7 @@ let firstCard, secondCard;
 
 function flipCard() {
     if (stopFlip) return;
+    if (this === firstCard) return;
     this.classList.add('flip');
 
     if(!flippedCard) {

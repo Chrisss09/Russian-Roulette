@@ -27,7 +27,10 @@ body{
     height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
-    transform: scale(1);
+}
+
+.card.flip {
+    transform: rotateY(180deg);
 }
 
 .face, .back-card {

@@ -15,14 +15,17 @@ body{
 
 .russian-roulette {
     margin-top: 80px;
-    width: 640px;
-    height: 640px;
+    width: 552px;
+    height: 390px;
     margin-left: 25%;
     display: flex;
     flex-wrap: wrap;
 }
 
-.face{
-    width: 138px;
-    height: 130px;
+.card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
 }

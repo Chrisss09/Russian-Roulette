@@ -1,9 +1,11 @@
 const cards = document.querySelectorAll('.card');
 
 let flippedCard = false;
+let stopFlip = false;
 let firstCard, secondCard;
 
 function flipCard() {
+    if (stopFlip) return;
     this.classList.add('flip');
 
     if(!flippedCard) {
@@ -36,9 +38,11 @@ secondCard.removeEventListener("click", flipCard);
 
 function flipCardBack(){
     //Not a match
+    stopFlip = true;
     setTimeout(() => {
         firstCard.classList.remove("flip");
         secondCard.classList.remove("flip"); 
+        stopFlip = false;
     }, 700);
 }
 

@@ -13,8 +13,12 @@ function flipCard() {
         flippedCard = false;
         secondCard = this;
 
-        console.log(firstCard.dataset.image);
-        console.log(secondCard.dataset.image);
+        if(firstCard.dataset.image === secondCard.dataset.image) {
+            firstCard.removeEventListener("click", flipCard);
+            secondCard.removeEventListener("click", flipCard);
+        }
+
+        console.log("Code works");
     }
 }
 

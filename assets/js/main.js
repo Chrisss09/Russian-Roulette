@@ -67,11 +67,11 @@ function resetButton() {
     location.reload();
 }
 
-// $(document).ready(function(){
+$(document).ready(function(){
 
-//     $(".card").on("click", function(){
-//         var changeToSpecificName = $(this).val("#");
-//         $(".btn-name").text(changeToSpecificName);
-//     });
+    $(".card").on("click", function(){
+        var changeToSpecificName = $(this).val("#");
+        $(".name-box").text(changeToSpecificName);
+    });
 
-// });
+});

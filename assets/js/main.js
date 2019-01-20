@@ -62,3 +62,16 @@ function fieldReset(){
 })();
 
 cards.forEach(square => square.addEventListener('click', flipCard));
+
+function resetButton() {
+    location.reload();
+}
+
+// $(document).ready(function(){
+
+//     $(".card").on("click", function(){
+//         var changeToSpecificName = $(this).val("#");
+//         $(".btn-name").text(changeToSpecificName);
+//     });
+
+// });

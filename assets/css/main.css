@@ -68,9 +68,9 @@ body{
 .btn-name {
     height: 40px;
     width: 20%;
-    margin-top: 20px;
+    margin-top: -45px;
     position: absolute;
-    margin-left: 50px;
+    margin-left: 49%;
     border-radius: 8px;
     text-align: center;
     background-color: red;

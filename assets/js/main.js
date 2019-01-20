@@ -1,4 +1,4 @@
-const cards = document.querySelectorAll('.card');
+const cards = document.querySelectorAll('.card'); //Store my cards in a const
 
 let flippedCard = false;
 let stopFlip = false;
@@ -25,22 +25,22 @@ function flipCard() {
 }
 
 function checkMatch(){
-    //Check to see if cards match
+    //Check to see if cards match using the individual data tags added to the index page
     let isMatch =  firstCard.dataset.image === secondCard.dataset.image;
 
     isMatch ? matchedCard() : flipCardBack();
 }
 
+//If cards match then the event listner will be taken away to prevent them from being clicked
 function matchedCard() {
-//Match
 firstCard.removeEventListener("click", flipCard);
 secondCard.removeEventListener("click", flipCard);
 
 fieldReset();
 }
 
+//If it is not a match the cards will flip back around
 function flipCardBack(){
-    //Not a match
     stopFlip = true;
     setTimeout(() => {
         firstCard.classList.remove("flip");
@@ -61,7 +61,9 @@ function fieldReset(){
     });
 })();
 
-cards.forEach(square => square.addEventListener('click', flipCard));
+cards.forEach(square => square.addEventListener('click', flipCard)); /*Adding an event listner for each 
+                                                                    card when clicked. When a card is clicked this
+                                                                    will activate the function 'flipCard'*/
 
 function resetButton() {
     location.reload();

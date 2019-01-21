@@ -80,6 +80,10 @@ $(document).ready(function(){
 
 });
 
+//-----------------------------------------------
+
+//----Created a loading page using a gif for when the user resets the game
+
 var loader = document.getElementById("loader");
 
 window.addEventListener("load", function(){

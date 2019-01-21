@@ -67,7 +67,3 @@ function fieldReset(){
 cards.forEach(square => square.addEventListener('click', flipCard)); /*Adding an event listner for each 
                                                                     card when clicked. When a card is clicked this
                                                                     will activate the function 'flipCard'*/
-
-function resetButton() {
-    location.reload();
-}

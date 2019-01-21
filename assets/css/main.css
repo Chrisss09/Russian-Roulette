@@ -88,4 +88,5 @@ body{
     position: absolute;
     margin-left: 49%;
     border: solid 2px #fff;
+    cursor: auto;
 }

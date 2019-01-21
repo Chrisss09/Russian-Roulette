@@ -1,3 +1,7 @@
+function resetButton() {
+    location.reload();
+}
+
 //-------WIP---------------------------------
 
 $(document).ready(function(){

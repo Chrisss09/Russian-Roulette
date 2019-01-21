@@ -1,12 +1,12 @@
 const cards = document.querySelectorAll('.card'); //Store my cards in a const
 
-let flippedCard = false;
+let flippedCard = false; //First card has been clicked on users turn.
 let stopFlip = false; //Stops cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
 
 function flipCard() {
     if (stopFlip) return;
-    if (this === firstCard) return;
+    if (this === firstCard) return; //Once clicked on the second card this will match up with the first card
     this.classList.add('flip');
 
     if(!flippedCard) {
@@ -17,15 +17,15 @@ function flipCard() {
         return;
 
     }
-    //Second click
-    flippedCard = false;
-    secondCard = this;
+        //Second click
+        flippedCard = false;
+        secondCard = this;
 
-    checkMatch();
+        checkMatch();
 }
 
 function checkMatch(){
-    //Check to see if cards match using the individual data tags added to the index page
+    //Check to see if cards match using the individual data tags added to the index page by using a ternary operator
     let isMatch =  firstCard.dataset.image === secondCard.dataset.image;
 
     isMatch ? matchedCard() : flipCardBack();
@@ -49,11 +49,14 @@ function flipCardBack(){
     }, 700);
 }
 
+//Allows the user to click on another 2 x cards after their first turn
 function fieldReset(){
     [flippedCard, stopFlip] = [false, false];
     [firstCard, secondCard] = [null, null];
 }
 
+//Creating a shuffle function each time the page is loaded
+//I have added brackets around all of the function to shuffle the cards before the game starts 
 (function shuffleSelection() {
     cards.forEach(square => {
         let randomSelection = Math.floor(Math.random() * 12);

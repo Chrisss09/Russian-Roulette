@@ -24,6 +24,24 @@ body{
     perspective: 1000px; /*This will add depth to the flipping effect*/
 }
 
+#loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    transition: all .60s;
+}
+
+#loader image{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .card {
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);

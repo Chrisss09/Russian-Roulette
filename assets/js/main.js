@@ -1,7 +1,7 @@
 const cards = document.querySelectorAll('.card'); //Store my cards in a const
 
 let flippedCard = false;
-let stopFlip = false;
+let stopFlip = false; //Stops cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
 
 function flipCard() {
@@ -69,6 +69,8 @@ function resetButton() {
     location.reload();
 }
 
+//-------WIP---------------------------------
+
 $(document).ready(function(){
 
     $(".card").on("click", function(){
@@ -76,4 +78,12 @@ $(document).ready(function(){
         $(".name-box").text(changeToSpecificName);
     });
 
+});
+
+var loader = document.getElementById("loader");
+
+window.addEventListener("load", function(){
+    loader.style.height = "100%";
+    loader.style.width = "100%";
+    loader.style.visibility = "hidden";
 });

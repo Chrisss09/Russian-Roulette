@@ -1,8 +1,9 @@
 const cards = document.querySelectorAll('.card'); //Store my cards in a const
 
 let flippedCard = false; //First card has been clicked on users turn.
-let stopFlip = false; //Stops cards flipping over whilst other cards are flipping over
+let stopFlip = false; //Stops other cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
+let noMatches = 0;
 
 function flipCard() {
     if (stopFlip) return;
@@ -15,13 +16,16 @@ function flipCard() {
         firstCard = this;
 
         return;
-
     }
         //Second click
         flippedCard = false;
         secondCard = this;
 
         checkMatch();
+    
+    // if(++numMatches == 12){
+    //     return resetButton();
+    // }
 }
 
 function checkMatch(){
@@ -33,10 +37,10 @@ function checkMatch(){
 
 //If cards match then the event listner will be taken away to prevent them from being clicked
 function matchedCard() {
-firstCard.removeEventListener("click", flipCard);
-secondCard.removeEventListener("click", flipCard);
+    firstCard.removeEventListener("click", flipCard);
+    secondCard.removeEventListener("click", flipCard);
 
-fieldReset();
+    fieldReset();
 }
 
 //If it is not a match the cards will flip back around
@@ -47,6 +51,10 @@ function flipCardBack(){
         secondCard.classList.remove("flip"); 
         fieldReset();
     }, 700);
+    noMatches += 1;
+    if(noMatches === 12) {
+        return resetButton();
+    }
 }
 
 //Allows the user to click on another 2 x cards after their first turn

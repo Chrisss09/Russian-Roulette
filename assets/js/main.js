@@ -4,6 +4,7 @@ let flippedCard = false; //First card has been clicked on users turn.
 let stopFlip = false; //Stops other cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
 let noMatches = 0;
+let gameWon = 0;
 
 function flipCard() {
     if (stopFlip) return;
@@ -22,10 +23,6 @@ function flipCard() {
         secondCard = this;
 
         checkMatch();
-    
-    // if(++numMatches == 12){
-    //     return resetButton();
-    // }
 }
 
 function checkMatch(){
@@ -39,8 +36,11 @@ function checkMatch(){
 function matchedCard() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", flipCard);
-
     fieldReset();
+    gameWon += 1;
+    if(gameWon === 6) {
+        return resetButton();
+    }
 }
 
 //If it is not a match the cards will flip back around
@@ -52,7 +52,7 @@ function flipCardBack(){
         fieldReset();
     }, 700);
     noMatches += 1;
-    if(noMatches === 12) {
+    if(noMatches === 9) {
         return resetButton();
     }
 }

@@ -39,7 +39,7 @@ function matchedCard() {
     fieldReset();
     gameWon += 1;
     if(gameWon === 6) {
-        return resetButton();
+        resetButton();
     }
 }
 
@@ -52,8 +52,11 @@ function flipCardBack(){
         fieldReset();
     }, 700);
     noMatches += 1;
-    if(noMatches === 9) {
-        return resetButton();
+    if(noMatches === 3) {
+        $(document).ready(function(){
+            $('.card').hide();
+            $('.game-field').addClass("new-field").text("You lose - the Communists have escaped!");
+        });
     }
 }
 

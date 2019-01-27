@@ -10,7 +10,6 @@ $(document).ready(function(){
         var changeToSpecificName = $(this).val("#");
         $(".name-box").text(changeToSpecificName);
     });
-
 });
 
 //-----------------------------------------------

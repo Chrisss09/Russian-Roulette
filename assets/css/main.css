@@ -21,6 +21,22 @@ body{
     display: flex;
     flex-wrap: wrap;
     background: gray;
+    background-image: none;
+    perspective: 1000px; /*This will add depth to the flipping effect*/
+}
+
+.new-field {
+    margin-top: 80px;
+    width: 600px;
+    height: 415px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    background-image: url("../images/you-lose.jpg");
     perspective: 1000px; /*This will add depth to the flipping effect*/
 }
 
@@ -41,6 +57,13 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+/*#youLoser {
+    position: fixed;
+    width: 100%;
+    height:100%;
+    visibility: hidden;
+}*/
 
 .card {
     width: calc(25% - 10px);

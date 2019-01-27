@@ -2,7 +2,7 @@ body{
     background: url("../images/main-bg.jpg") repeat;
 }
 
-#main-title, p {
+#main-title, .tag-line {
     height: 40px;
     background-color: black;
     color: red;
@@ -25,19 +25,24 @@ body{
     perspective: 1000px; /*This will add depth to the flipping effect*/
 }
 
-.new-field {
+.new-field-lose {
     margin-top: 80px;
     width: 600px;
     height: 415px;
     margin-left: 25%;
     display: flex;
     flex-wrap: wrap;
+    background-image: url("../images/you-lose.jpg");
+    perspective: 1000px; /*This will add depth to the flipping effect*/
+}
+
+.youLose {
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;
     text-align: center;
     color: red;
-    background-image: url("../images/you-lose.jpg");
-    perspective: 1000px; /*This will add depth to the flipping effect*/
+    font-weight: bolder;
+    margin-top: 30%;
 }
 
 #loader {
@@ -57,13 +62,6 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-/*#youLoser {
-    position: fixed;
-    width: 100%;
-    height:100%;
-    visibility: hidden;
-}*/
 
 .card {
     width: calc(25% - 10px);

@@ -43,6 +43,8 @@ body{
     color: red;
     font-weight: bolder;
     margin-top: 30%;
+    background-color: black;
+    position: absolute
 }
 
 #loader {

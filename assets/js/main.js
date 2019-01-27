@@ -56,6 +56,7 @@ function flipCardBack(){
         $(document).ready(function(){
             $('.card').hide();
             $('.game-field').addClass("new-field-lose").append(`<p class="youLose">You lose - the Communists have escaped!</p>`);
+            $('body').css('background', 'black');
         });
     }
 }

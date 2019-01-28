@@ -33,7 +33,16 @@ body{
     display: flex;
     flex-wrap: wrap;
     background-image: url("../images/you-lose.jpg");
-    perspective: 1000px; /*This will add depth to the flipping effect*/
+}
+
+.new-field-win {
+    margin-top: 80px;
+    width: 600px;
+    height: 415px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("../images/you-win.jpg");
 }
 
 .condition {

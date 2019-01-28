@@ -36,7 +36,7 @@ body{
     perspective: 1000px; /*This will add depth to the flipping effect*/
 }
 
-.youLose {
+.condition {
     font-family: 'Orbitron', sans-serif;
     font-size: 40px;
     text-align: center;

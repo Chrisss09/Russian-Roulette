@@ -122,3 +122,15 @@ body{
     border: solid 2px #fff;
     cursor: auto;
 }
+
+@media screen and (max-width:900px) {
+    #main-title, .tag-line {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width:150px) {
+    #main-title, .tag-line {
+        font-size: 95%;
+    }
+}

@@ -2,7 +2,7 @@ body{
     background: url("../images/main-bg.jpg") repeat;
 }
 
-#main-title, .tag-line {
+.main-title h2, .tag-line {
     height: 40px;
     background-color: black;
     color: red;
@@ -123,14 +123,3 @@ body{
     cursor: auto;
 }
 
-@media screen and (max-width:900px) {
-    #main-title, .tag-line {
-        font-size: 100%;
-    }
-}
-
-@media screen and (max-width:150px) {
-    #main-title, .tag-line {
-        font-size: 95%;
-    }
-}

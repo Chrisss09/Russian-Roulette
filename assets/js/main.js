@@ -41,7 +41,7 @@ function matchedCard() {
     if(gameWon === 6) {
         $(document).ready(function(){
             $('.card').hide();
-            $('.game-field').addClass("new-field-win").append(`<p class="condition">You win - the Communists have been captured!</p>`);
+            $('.game-field').addClass("new-field-win").append(`<p class="condition">You Win - The Communists have been captured!</p>`);
         });
     }
 }
@@ -58,7 +58,7 @@ function flipCardBack(){
     if(noMatches === 8) {
         $(document).ready(function(){
             $('.card').hide();
-            $('.game-field').addClass("new-field-lose").append(`<p class="condition">You lose - the Communists have escaped!</p>`);
+            $('.game-field').addClass("new-field-lose").append(`<p class="condition">You Lose - The Communists have escaped!</p>`);
         });
     }
 }

@@ -134,3 +134,42 @@ body{
         padding-bottom: 10px;
     }
 }
+
+@media all and (max-width: 841px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 128px;
+        height: 120px;
+        position: relative;
+    }
+}
+
+/*@media all and (max-width: 705px) and (min-width: 150px) {
+    [class*="card"] {
+        
+
+    }
+}*/
+
+@media all and (max-width: 841px) and (min-width: 150px) {
+    .game-field {
+        margin-left: 60px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media all and (max-width: 705px) and (min-width: 150px) {
+    .game-field {
+        margin-left: 20px;
+
+    }
+
+    /*margin-top: 80px;
+    width: 600px;
+    height: 415px;
+    margin-left: 25%;
+    display: flex;
+    flex-wrap: wrap;*/
+}
+

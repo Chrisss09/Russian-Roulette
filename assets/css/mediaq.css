@@ -95,6 +95,9 @@
         width: 461px;
         height: 330px
     }
+    .condition {
+        font-size: 35px;
+    }
 }
 
 @media all and (max-width: 493px) and (min-width: 150px) {
@@ -113,6 +116,9 @@
         width: 440px;
         height: 315px
     }
+    .condition {
+        font-size: 32px;
+    }
 }
 
 @media all and (max-width: 474px) and (min-width: 150px) {
@@ -130,6 +136,9 @@
     .game-field {
         width: 421px;
         height: 300px;
+    }
+    .condition {
+        font-size: 30px;
     }
 }
 
@@ -185,6 +194,9 @@
         width: 360px;
         height: 255px;
     }
+    .condition {
+        font-size: 27px;
+    }
 }
 
 @media all and (max-width: 394px) and (min-width: 150px) {
@@ -204,6 +216,9 @@
         width: 340px;
         height: 240px;
     }
+    .condition {
+        font-size: 24px;
+    }
 }
 
 @media all and (max-width: 353px) and (min-width: 150px) {
@@ -221,6 +236,9 @@
     .game-field {
         width: 320px;
         height: 225px;
+    }
+    .condition {
+        font-size: 24px;
     }
 }
 
@@ -240,6 +258,9 @@
         width: 300px;
         height: 210px;
     }
+    .condition {
+        font-size: 22px;
+    }
 }
 
 @media all and (max-width: 313px) and (min-width: 150px) {
@@ -257,6 +278,9 @@
     .game-field {
         width: 280px;
         height: 194px;
+    }
+    .condition {
+        font-size: 20px;
     }
 }
 
@@ -276,6 +300,9 @@
         width: 260px;
         height: 178px;
     }
+    .condition {
+        font-size: 18px;
+    }
 }
 
 @media all and (max-width: 273px) and (min-width: 150px) {
@@ -294,6 +321,9 @@
         width: 240px;
         height: 163px;
     }
+    .condition {
+        font-size: 15px;
+    }
 }
 
 @media all and (max-width: 253px) and (min-width: 150px) {
@@ -311,5 +341,8 @@
     .game-field {
         width: 220px;
         height: 148px;
+    }
+    .condition {
+        font-size: 10px
     }
 }

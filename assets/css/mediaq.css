@@ -108,3 +108,165 @@
         height: 300px;
     }
 }
+
+@media all and (max-width: 454px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 90px;
+        height: 85px;
+    }
+    .face {
+        width: 90px;
+        height: 85px;
+    }
+}
+
+@media all and (max-width: 454px) and (min-width: 150px) {
+    .game-field {
+        width: 400px;
+        height: 285px;
+    }
+}
+
+@media all and (max-width: 415px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 85px;
+        height: 80px;
+    }
+    .face {
+        width: 85px;
+        height: 80px;
+    }
+}
+
+@media all and (max-width: 415px) and (min-width: 150px) {
+    .game-field {
+        width: 380px;
+        height: 270px;
+    }
+}
+
+@media all and (max-width: 392px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 80px;
+        height: 75px;
+    }
+    .face {
+        width: 80px;
+        height: 75px;
+    }
+}
+
+@media all and (max-width: 392px) and (min-width: 150px) {
+    .game-field {
+        width: 360px;
+        height: 255px;
+    }
+}
+
+@media all and (max-width: 374px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 75px;
+        height: 70px;
+    }
+    .face {
+        width: 75px;
+        height: 70px;
+    }
+}
+
+@media all and (max-width: 374px) and (min-width: 150px) {
+    .game-field {
+        width: 340px;
+        height: 240px;
+    }
+}
+
+@media all and (max-width: 353px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 70px;
+        height: 65px;
+    }
+    .face {
+        width: 70px;
+        height: 65px;
+    }
+}
+
+@media all and (max-width: 353px) and (min-width: 150px) {
+    .game-field {
+        width: 320px;
+        height: 225px;
+    }
+}
+
+@media all and (max-width: 337px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 65px;
+        height: 60px;
+    }
+    .face {
+        width: 65px;
+        height: 60px;
+    }
+}
+
+@media all and (max-width: 337px) and (min-width: 150px) {
+    .game-field {
+        width: 300px;
+        height: 210px;
+    }
+}
+
+@media all and (max-width: 313px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 60px;
+        height: 55px;
+    }
+    .face {
+        width: 60px;
+        height: 55px;
+    }
+}
+
+@media all and (max-width: 313px) and (min-width: 150px) {
+    .game-field {
+        width: 280px;
+        height: 194px;
+    }
+}
+
+@media all and (max-width: 293px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 55px;
+        height: 50px;
+    }
+    .face {
+        width: 55px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 293px) and (min-width: 150px) {
+    .game-field {
+        width: 260px;
+        height: 178px;
+    }
+}
+
+@media all and (max-width: 273px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 50px;
+        height: 45px;
+    }
+    .face {
+        width: 50px;
+        height: 45px;
+    }
+}
+
+@media all and (max-width: 273px) and (min-width: 150px) {
+    .game-field {
+        width: 240px;
+        height: 163px;
+    }
+}

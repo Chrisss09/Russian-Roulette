@@ -1,5 +1,6 @@
 body{
     background: url("../images/main-bg.jpg") repeat;
+    height: 100vh;
 }
 
 .main-title h2, .tag-line {
@@ -137,9 +138,12 @@ body{
 
 @media all and (max-width: 841px) and (min-width: 150px) {
     [class*="card"] {
-        width: 128px;
-        height: 120px;
-        position: relative;
+        width: 123px;
+        height: 115px;
+    }
+    .face {
+        width: 123px;
+        height: 115px;
     }
 }
 
@@ -153,9 +157,8 @@ body{
 @media all and (max-width: 841px) and (min-width: 150px) {
     .game-field {
         margin-left: 60px;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
+        width: 533px;
+        height: 380px
     }
 }
 

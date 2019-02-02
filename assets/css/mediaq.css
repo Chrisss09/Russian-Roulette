@@ -297,7 +297,7 @@
 }
 
 @media all and (max-width: 253px) and (min-width: 150px) {
-    [class*="card"] {
+    [class*="card"] .new-field-win, .new-field-lose{
         width: 45px;
         height: 40px;
     }
@@ -308,7 +308,7 @@
 }
 
 @media all and (max-width: 253px) and (min-width: 150px) {
-    .game-field {
+    .game-field, .new-field-win, .new-field-lose {
         width: 220px;
         height: 148px;
     }

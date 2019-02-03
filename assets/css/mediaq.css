@@ -1,3 +1,9 @@
+@media all and (max-width: 1125px) and (min-width: 150px) {
+    .btn-reset {
+        left: 35%;
+    }
+}
+
 @media all and (max-width: 950px) and (min-width: 150px) {
     .game-field {
         margin-left: 15%;

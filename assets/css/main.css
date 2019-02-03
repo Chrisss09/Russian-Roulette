@@ -105,26 +105,18 @@ body{
     transform: rotateY(180deg); /*This now will allow me to see the card underneath when clicked*/
 }
 
-.btn-reset, .name-box {
+.btn-reset {
     height: 40px;
-    width: 20%;
-    margin-top: 20px;
-    margin-left: 25%;
+    width: 25%;
     border-radius: 8px;
     text-align: center;
     background-color: red;
     color: #FFF;
     font-family: 'Orbitron', sans-serif;
     font-size: 30px;
-    padding-top: 0px;
     border: solid 2px #fff;
     cursor: pointer; 
-}
-
-.name-box {
-    margin-top: -45px;
-    position: absolute;
-    margin-left: 49%;
-    border: solid 2px #fff;
-    cursor: auto;
+    position: relative;
+    left: 35%;
+    top: 10px;
 }

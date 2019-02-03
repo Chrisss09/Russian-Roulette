@@ -1,5 +1,6 @@
 body{
     background: url("../images/main-bg.jpg") repeat;
+    height: 100%;
 }
 
 .main-title h2, .tag-line {
@@ -122,5 +123,22 @@ body{
 }
 
 .footer {
+    margin: -8px;
+    margin-bottom: -10px;
     background-color: gray;
+    font-family: 'Orbitron', sans-serif;
+    padding-left: 10px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.footer>p {
+    margin-left: -70px;
+}
+
+.fa-github-square {
+    font-size: 45px;
+    margin-left: -70px;
+    color: black;
 }

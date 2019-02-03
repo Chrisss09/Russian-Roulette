@@ -1,7 +1,19 @@
+@media all and (max-width: 1024px) and (min-width: 150px) {
+    .btn-reset {
+        margin-bottom: 606px
+    }
+}
+
 @media all and (max-width: 1125px) and (min-width: 150px) {
     .btn-reset {
         height: 40px;
         width: 35%;
+    }
+    .footer>p {
+        margin-left: 25px;
+    }
+    .fa-github-square {
+        margin-left: 35px;
     }
 }
 
@@ -97,6 +109,9 @@
     .condition {
         font-size: 35px;
     }
+    .btn-reset {
+        margin-left: -25px
+    }
 }
 
 @media all and (max-width: 493px) and (min-width: 150px) {
@@ -136,8 +151,21 @@
         width: 421px;
         height: 300px;
     }
+    .main-title h2, .tag-line {
+        font-size: 22px;
+    }
     .condition {
         font-size: 30px;
+    }
+    .btn-reset {
+        margin-bottom: 15px;
+        margin-left: 2px;
+    }
+    .footer>p{
+        margin-left: -17px;
+    }
+    .fa-github-square {
+        margin-left: 17px;
     }
 }
 
@@ -157,6 +185,12 @@
         width: 400px;
         height: 285px;
     }
+    .btn-reset {
+        margin-bottom: 29px;
+    }
+    .fa-github-square {
+        margin-left: -10px;
+    }
 }
 
 @media all and (max-width: 448px) and (min-width: 150px) {
@@ -175,6 +209,11 @@
         width: 380px;
         height: 270px;
     }
+    .btn-reset {
+        margin-bottom: 44px;
+        margin-left: -17px
+    }
+
 }
 
 @media all and (max-width: 443px) and (min-width: 150px) {
@@ -201,6 +240,15 @@
     }
     .condition {
         font-size: 27px;
+    }
+    .btn-reset {
+        margin-bottom: 59px;
+    }
+}
+
+@media all and (max-width: 414px) and (min-width: 150px) {
+    .btn-reset {
+        margin-bottom: 139px;
     }
 }
 
@@ -230,12 +278,18 @@
     .condition {
         font-size: 24px;
     }
+    .btn-reset {
+        margin-bottom: 74px;
+    }
 }
 
 @media all and (max-width: 372px) and (min-width: 150px) {
     .main-title h2, .tag-line {
         font-size: 19px;
         padding-top: 3px;
+    }
+    .btn-reset {
+        margin-bottom: 98px;
     }
 }
 
@@ -257,6 +311,9 @@
     }
     .condition {
         font-size: 24px;
+    }
+    .btn-reset {
+        margin-bottom: 113px;
     }
 }
 
@@ -292,6 +349,10 @@
     .btn-reset {
         font-size: 25px;
         height: 36px;
+        margin-bottom: 118px
+    }
+    .footer>p {
+        font-size: 15px
     }
 }
 
@@ -314,6 +375,12 @@
     .condition {
         font-size: 20px;
     }
+    .btn-reset {
+        margin-bottom: 140px;
+    }
+    .footer>p {
+        font-size: 12px;
+    }
 }
 
 @media all and (max-width: 293px) and (min-width: 150px) {
@@ -335,12 +402,16 @@
     .condition {
         font-size: 18px;
     }
+    .btn-reset {
+        margin-bottom: 156px;
+    }
 }
 
 @media all and (max-width: 290px) and (min-width: 150px) {
     .btn-reset {
         font-size: 22px;
         height: 33px;
+        margin-bottom: 159px
     }
 }
 
@@ -363,12 +434,16 @@
     .condition {
         font-size: 15px;
     }
+    .btn-reset {
+        margin-bottom: 174px;
+    }
 }
 
 @media all and (max-width: 261px) and (min-width: 150px) {
     .btn-reset {
         font-size: 19px;
         height: 30px;
+        margin-bottom: 177px;
     }
 }
 
@@ -428,5 +503,11 @@
     .btn-reset {
         font-size: 10px;
         height: 30px;
+    }
+}
+
+@media all and (max-width: 170px) and (min-width: 150px) {
+    .main-title h2, .tag-line {
+        padding-bottom: 18px;
     }
 }

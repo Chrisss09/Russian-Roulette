@@ -120,3 +120,7 @@ body{
     left: 35%;
     top: 10px;
 }
+
+.footer {
+    background-color: gray;
+}

@@ -142,3 +142,7 @@ body{
     margin-left: -70px;
     color: black;
 }
+
+.fa-github-square:hover {
+    color: red;
+}

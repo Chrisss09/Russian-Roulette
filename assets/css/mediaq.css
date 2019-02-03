@@ -690,6 +690,6 @@
         font-size: 6px;
     }
     .game-field {
-        margin-left: -2px;
+        margin-left: 2px;
     }
 }

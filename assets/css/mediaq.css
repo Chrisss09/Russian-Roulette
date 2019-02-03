@@ -314,7 +314,7 @@
 @media all and (max-width: 375px) and (min-width: 150px) {
     .btn-reset {
         margin-bottom: 229px;
-        margin-left: 10px;
+        margin-left: -10px;
     }
     .main-title h2, .tag-line {
         font-size: 19px;
@@ -344,6 +344,12 @@
     .btn-reset {
         margin-bottom: 113px;
         margin-left: -6px;
+    }
+}
+
+@media all and (max-width: 360px) and (min-width: 150px) {
+    .btn-reset {
+        margin-bottom: 96px;
     }
 }
 
@@ -682,5 +688,8 @@
 @media all and (max-width: 150px) and (min-width: 150px) {
     .btn-reset {
         font-size: 6px;
+    }
+    .game-field {
+        margin-left: -2px;
     }
 }

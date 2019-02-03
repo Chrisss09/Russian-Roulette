@@ -1,6 +1,7 @@
 @media all and (max-width: 1125px) and (min-width: 150px) {
     .btn-reset {
-        left: 35%;
+        height: 40px;
+        width: 35%;
     }
 }
 
@@ -69,6 +70,10 @@
         margin-left: 5%;
         width: 512px;
         height: 368px
+    }
+    .btn-reset {
+        font-size: 28px;
+        height: 38px;
     }
 }
 
@@ -283,6 +288,13 @@
     }
 }
 
+@media all and (max-width: 324px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 25px;
+        height: 36px;
+    }
+}
+
 @media all and (max-width: 313px) and (min-width: 150px) {
     [class*="card"] {
         width: 60px;
@@ -325,6 +337,13 @@
     }
 }
 
+@media all and (max-width: 290px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 22px;
+        height: 33px;
+    }
+}
+
 @media all and (max-width: 273px) and (min-width: 150px) {
     [class*="card"] {
         width: 50px;
@@ -343,6 +362,13 @@
     }
     .condition {
         font-size: 15px;
+    }
+}
+
+@media all and (max-width: 261px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 19px;
+        height: 30px;
     }
 }
 
@@ -370,6 +396,13 @@
     }
 }
 
+@media all and (max-width: 233px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 16px;
+        height: 27px;
+    }
+}
+
 @media all and (max-width: 224px) and (min-width: 150px) {
     .main-title h2, .tag-line {
         font-size: 19px;
@@ -377,9 +410,23 @@
     }
 }
 
+@media all and (max-width: 200px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 13px;
+        height: 24px;
+    }
+}
+
 @media all and (max-width: 181px) and (min-width: 150px) {
     .main-title h2, .tag-line {
         font-size: 15px;
         padding-bottom: 10px;
+    }
+}
+
+@media all and (max-width: 170px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 10px;
+        height: 30px;
     }
 }

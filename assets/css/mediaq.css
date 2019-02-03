@@ -310,25 +310,10 @@
         font-size: 24px;
     }
     .btn-reset {
-        margin-bottom: 74px;
-        margin-left: -6px;
-    }
-}
-
-/*@media all and (max-width: 402px) and (min-width: 150px) {
-    .game-field {
-        margin-left: 5px;
-        width: 340px;
-        height: 240px;
-    }
-    .condition {
-        font-size: 24px;
-    }
-    .btn-reset {
         margin-bottom: 104px;
         margin-left: -6px;
     }
-}*/
+}
 
 @media all and (max-width: 375px) and (min-width: 150px) {
     .btn-reset {
@@ -366,36 +351,16 @@
         font-size: 24px;
     }
     .btn-reset {
-        margin-bottom: 113px;
-        margin-left: -6px;
-    }
-}
-
-/*@media all and (max-width: 369px) and (min-width: 150px) {
-    .game-field {
-        width: 320px;
-        height: 225px;
-    }
-    .condition {
-        font-size: 24px;
-    }
-    .btn-reset {
         margin-bottom: 119px;
         margin-left: -6px;
     }
-}*/
+}
 
 @media all and (max-width: 360px) and (min-width: 150px) {
     .btn-reset {
-        margin-bottom: 102px;
-    }
-}
-
-/*@media all and (max-width: 360px) and (min-width: 150px) {
-    .btn-reset {
         margin-bottom: 119px;
     }
-}*/
+}
 
 @media all and (max-width: 337px) and (min-width: 150px) {
     [class*="card"] {
@@ -429,21 +394,6 @@
     .btn-reset {
         font-size: 18px;
         height: 36px;
-        margin-bottom: 50px
-    }
-    .footer>p {
-        font-size: 15px
-    }
-    .main-title h2, .tag-line {
-        font-size: 15px;
-        padding: 0;    
-    }
-}
-
-/*@media all and (max-width: 324px) and (min-width: 150px) {
-    .btn-reset {
-        font-size: 18px;
-        height: 36px;
         margin-bottom: 139px
     }
     .footer>p {
@@ -453,7 +403,7 @@
         font-size: 15px;
         padding: 0;    
     }
-}*/
+}
 
 @media all and (max-width: 313px) and (min-width: 150px) {
     [class*="card"] {
@@ -467,22 +417,6 @@
 }
 
 @media all and (max-width: 313px) and (min-width: 150px) {
-    .game-field {
-        width: 280px;
-        height: 194px;
-    }
-    .condition {
-        font-size: 20px;
-    }
-    .btn-reset {
-        margin-bottom: 140px;
-    }
-    .footer>p {
-        font-size: 12px;
-    }
-}
-
-/*@media all and (max-width: 313px) and (min-width: 150px) {
     .game-field {
         width: 280px;
         height: 194px;
@@ -496,7 +430,7 @@
     .footer>p {
         font-size: 12px;
     }
-}*/
+}
 
 @media all and (max-width: 293px) and (min-width: 150px) {
     [class*="card"] {
@@ -510,20 +444,6 @@
 }
 
 @media all and (max-width: 293px) and (min-width: 150px) {
-    .game-field {
-        width: 260px;
-        height: 178px;
-    }
-    .condition {
-        font-size: 18px;
-    }
-    .btn-reset {
-        margin-bottom: 156px;
-        font-size: 16px;
-    }
-}
-
-/*@media all and (max-width: 293px) and (min-width: 150px) {
     .game-field {
         width: 260px;
         height: 178px;
@@ -535,23 +455,15 @@
         margin-bottom: 177px;
         font-size: 16px;
     }
-}*/
+}
 
 @media all and (max-width: 290px) and (min-width: 150px) {
     .btn-reset {
         font-size: 16px;
         height: 33px;
-        margin-bottom: 159px
-    }
-}
-
-/*@media all and (max-width: 290px) and (min-width: 150px) {
-    .btn-reset {
-        font-size: 16px;
-        height: 33px;
         margin-bottom: 180px;
     }
-}*/
+}
 
 @media all and (max-width: 273px) and (min-width: 150px) {
     [class*="card"] {
@@ -573,22 +485,9 @@
         font-size: 15px;
     }
     .btn-reset {
-        margin-bottom: 174px;
-    }
-}
-
-/*@media all and (max-width: 273px) and (min-width: 150px) {
-    .game-field {
-        width: 240px;
-        height: 163px;
-    }
-    .condition {
-        font-size: 15px;
-    }
-    .btn-reset {
         margin-bottom: 195px;
     }
-}*/
+}
 
 @media all and (max-width: 270px) and (min-width: 150px) {
     .btn-reset{
@@ -600,17 +499,9 @@
     .btn-reset {
         font-size: 14px;
         height: 30px;
-        margin-bottom: 177px;
-    }
-}
-
-/*@media all and (max-width: 261px) and (min-width: 150px) {
-    .btn-reset {
-        font-size: 14px;
-        height: 30px;
         margin-bottom: 198px;
     }
-}*/
+}
 
 @media all and (max-width: 253px) and (min-width: 150px) {
     [class*="card"] {
@@ -624,19 +515,6 @@
 }
 
 @media all and (max-width: 253px) and (min-width: 150px) {
-    .game-field {
-        width: 220px;
-        height: 148px;
-    }
-    .condition {
-        font-size: 10px
-    }
-    .tag-line {
-        padding-bottom: 25px;
-    }
-}
-
-/*@media all and (max-width: 253px) and (min-width: 150px) {
     .game-field {
         width: 220px;
         height: 148px;
@@ -647,7 +525,7 @@
     .tag-line {
         padding-bottom: 15px;
     }
-}*/
+}
 
 @media all and (max-width: 240px) and (min-width: 150px) {
     [class*="card"] {
@@ -666,37 +544,18 @@
         height: 133px;
     }
     .btn-reset {
-        margin-bottom: 192px;
-        font-size: 12px;
-    }
-}
-
-/*@media all and (max-width: 240px) and (min-width: 150px) {
-    .game-field {
-        width: 200px;
-        height: 133px;
-    }
-    .btn-reset {
         margin-bottom: 213px;
         font-size: 12px;
     }
-}*/
+}
 
 @media all and (max-width: 233px) and (min-width: 150px) {
     .btn-reset {
         font-size: 11px;
         height: 27px;
-        margin-bottom: 180px;
-    }
-}
-
-/*@media all and (max-width: 233px) and (min-width: 150px) {
-    .btn-reset {
-        font-size: 11px;
-        height: 27px;
         margin-bottom: 201px;
     }
-}*/
+}
 
 @media all and (max-width: 224px) and (min-width: 150px) {
     .main-title h2, .tag-line {
@@ -707,15 +566,9 @@
 
 @media all and (max-width: 224px) and (min-width: 150px) {
     .btn-reset {
-        margin-bottom: 190px;
-    }
-}
-
-/*@media all and (max-width: 224px) and (min-width: 150px) {
-    .btn-reset {
         margin-bottom: 196px;
     }
-}*/
+}
 
 @media all and (max-width: 220px) and (min-width: 150px) {
     [class*="card"] {
@@ -734,19 +587,9 @@
         height: 120px;
     }
     .btn-reset {
-        margin-bottom: 203px;
-    }
-}
-
-/*@media all and (max-width: 220px) and (min-width: 150px) {
-    .game-field {
-        width: 180px;
-        height: 120px;
-    }
-    .btn-reset {
         margin-bottom: 209px;
     }
-}*/
+}
 
 @media all and (max-width: 205px) and (min-width: 150px) {
     .btn-reset {
@@ -758,17 +601,9 @@
     .btn-reset {
         font-size: 10px;
         height: 24px;
-        margin-bottom: 206px;
-    }
-}
-
-/*@media all and (max-width: 200px) and (min-width: 150px) {
-    .btn-reset {
-        font-size: 10px;
-        height: 24px;
         margin-bottom: 212px;
     }
-}*/
+}
 
 @media all and (max-width: 198px) and (min-width: 150px) {
     [class*="card"] {
@@ -790,23 +625,10 @@
         height: 104px;
     }
     .btn-reset {
-        margin-bottom: 222px;
-    }
-}
-
-/*@media all and (max-width: 198px) and (min-width: 150px) {
-    .main-title h2, .tag-line {
-        font-size: 17px;
-    }
-    .game-field {
-        width: 160px;
-        height: 104px;
-    }
-    .btn-reset {
         margin-bottom: 228px;
     }
 }
-*/
+
 
 @media all and (max-width: 193px) and (min-width: 150px) {
     .btn-reset {
@@ -841,24 +663,10 @@
         height: 88px;
     }
     .btn-reset {
-        margin-bottom: 238px;
-        font-size: 8px;
-    }
-}
-
-/*@media all and (max-width: 179px) and (min-width: 150px) {
-    .main-title h2, .tag-line {
-        font-size: 17px;
-    }
-    .game-field {
-        width: 140px;
-        height: 88px;
-    }
-    .btn-reset {
         margin-bottom: 244px;
         font-size: 8px;
     }
-}*/
+}
 
 @media all and (max-width: 170px) and (min-width: 150px) {
     [class*="card"] {
@@ -879,7 +687,7 @@
     .btn-reset {
         font-size: 7px;
         height: 30px;
-        margin-bottom: 231px;
+        margin-bottom: 237px;
         margin-left: 0px;
     }
     .footer>p{
@@ -891,30 +699,10 @@
     }
 }
 
-/*@media all and (max-width: 170px) and (min-width: 150px) {
-    .main-title h2, .tag-line {
-        padding-bottom: 18px;
-        font-size: 15px;
-    }
-    .btn-reset {
-        font-size: 7px;
-        height: 30px;
-        margin-bottom: 237px;
-        margin-left: 0px;
-    }
-    .footer>p{
-        margin-left: 1px
-    }
-    .game-field {
-        width: 120px;
-        height: 73px;
-    }
-}*/
-
 @media all and (max-width: 150px) and (min-width: 150px) {
     .btn-reset {
         font-size: 6px;
-        margin-bottom: 231px; /*margin-bottom: 237px;*/
+        margin-bottom: 237px;
     }
     .game-field {
         margin-left: 2px;

@@ -275,7 +275,10 @@
 
 @media all and (max-width: 411px) and (min-width: 150px) {
     .btn-reset {
-        margin-bottom: 225px;
+        margin-bottom: 255px;
+    }
+    .main-title h2, .tag-line {
+        padding: 0;
     }
 }
 
@@ -313,12 +316,17 @@
 
 @media all and (max-width: 375px) and (min-width: 150px) {
     .btn-reset {
-        margin-bottom: 229px;
+        margin-bottom: 259px;
         margin-left: -10px;
     }
     .main-title h2, .tag-line {
         font-size: 19px;
-        padding-top: 3px;
+    }
+}
+
+@media all and (max-width: 375px) and (min-width: 150px) {
+    .tag-line {
+        padding: 0;
     }
 }
 
@@ -349,7 +357,7 @@
 
 @media all and (max-width: 360px) and (min-width: 150px) {
     .btn-reset {
-        margin-bottom: 96px;
+        margin-bottom: 102px;
     }
 }
 
@@ -385,10 +393,14 @@
     .btn-reset {
         font-size: 18px;
         height: 36px;
-        margin-bottom: 118px
+        margin-bottom: 50px
     }
     .footer>p {
         font-size: 15px
+    }
+    .main-title h2, .tag-line {
+        font-size: 15px;
+        padding: 0;    
     }
 }
 
@@ -688,6 +700,7 @@
 @media all and (max-width: 150px) and (min-width: 150px) {
     .btn-reset {
         font-size: 6px;
+        margin-bottom: 231px;
     }
     .game-field {
         margin-left: 2px;

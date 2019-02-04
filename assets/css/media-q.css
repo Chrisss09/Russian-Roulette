@@ -216,6 +216,10 @@
     .main-title h2, .tag-line {
         font-size: 17px;
     }
+    .btn-reset {
+        padding: 7px 21px;
+        font-size: 16px;
+    }
 }
 
 @media all and (max-width: 333px) {
@@ -258,6 +262,10 @@
     .condition {
         font-size: 19px;
     }
+    .btn-reset {
+        padding: 5px 19px;
+        font-size: 14px;
+    }
 }
 
 @media all and (max-width: 304px) {
@@ -285,6 +293,10 @@
     .condition {
         font-size: 17px;
     }
+    .btn-reset {
+        padding: 5px 19px;
+        font-size: 14px;
+    }
 }
 
 @media all and (max-width: 273px) {
@@ -305,6 +317,10 @@
     }
     .condition {
         font-size: 15px;
+    }
+    .btn-reset {
+        padding: 5px 19px;
+        font-size: 14px;
     }
 }
 
@@ -333,6 +349,10 @@
     .condition {
         font-size: 13px;
     }
+    .btn-reset {
+        padding: 5px 19px;
+        font-size: 14px;
+    }
 }
 
 @media all and (max-width: 234px) {
@@ -341,6 +361,10 @@
     }
     .tag-line {
         padding-top: 0;
+    }
+    .btn-reset {
+        padding: 5px 19px;
+        font-size: 14px;
     }
 }
 
@@ -359,6 +383,10 @@
     .game-field {
         width: 200px;
         height: 133px;
+    }
+    .btn-reset {
+        padding: 3px 17px;
+        font-size: 12px;
     }
 }
 
@@ -381,6 +409,10 @@
     .condition {
         font-size: 11px;
     }
+    .btn-reset {
+        padding: 3px 17px;
+        font-size: 12px;
+    }
 }
 
 @media all and (max-width: 193px) {
@@ -402,6 +434,10 @@
     .condition {
         font-size: 9px;
     }
+    .btn-reset {
+        padding: 1px 15px;
+        font-size: 10px;
+    }
 }
 
 @media all and (max-width: 172px) {
@@ -419,6 +455,10 @@
     .game-field {
         width: 140px;
         height: 88px;
+    }
+    .btn-reset {
+        padding: 1px 15px;
+        font-size: 10px;
     }
 }
 
@@ -443,5 +483,9 @@
     }
     .main-title h2, .tag-line {
         padding-top: 5px;
+    }
+    .btn-reset {
+        padding: 1px 15px;
+        font-size: 10px;
     }
 }

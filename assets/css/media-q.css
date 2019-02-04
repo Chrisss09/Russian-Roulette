@@ -1,0 +1,366 @@
+@media all and (max-width: 627px) {
+    [class*="card"] {
+        width: 133px;
+        height: 125px;
+    }
+    .face {
+        width: 133px;
+        height: 125px;
+    }
+}
+
+@media all and (max-width: 627px) {
+    .game-field {
+        width: 575px;
+        height: 410px;
+
+    }
+}
+
+@media all and (max-width: 605px) {
+    [class*="card"] {
+        width: 118px;
+        height: 110px;
+    }
+    .face {
+        width: 118px;
+        height: 110px;
+    }
+}
+
+@media all and (max-width: 605px) {
+    .game-field {
+        width: 512px;
+        height: 368px;
+    }
+}
+
+@media all and (max-width: 526px) {
+    [class*="card"] {
+        width: 105px;
+        height: 100px;
+    }
+    .face {
+        width: 105px;
+        height: 100px;
+    }
+}
+
+@media all and (max-width: 526px) {
+    .game-field {
+        width: 461px;
+        height: 330px
+    }
+}
+
+@media all and (max-width: 474px) {
+    [class*="card"] {
+        width: 100px;
+        height: 95px;
+    }
+    .face {
+        width: 100px;
+        height: 95px;
+    }
+}
+
+@media all and (max-width: 474px) {
+    .game-field {
+        width: 440px;
+        height: 315px
+    }
+}
+
+@media all and (max-width: 453px) {
+    [class*="card"] {
+        width: 95px;
+        height: 90px;
+    }
+    .face {
+        width: 95px;
+        height: 90px;
+    }
+}
+
+@media all and (max-width: 453px) {
+    .game-field {
+        width: 421px;
+        height: 300px;
+    }
+}
+
+@media all and (max-width: 433px) {
+    [class*="card"] {
+        width: 90px;
+        height: 85px;
+    }
+    .face {
+        width: 90px;
+        height: 85px;
+    }
+}
+
+@media all and (max-width: 433px) {
+    .game-field {
+        width: 400px;
+        height: 285px;
+    }
+}
+
+@media all and (max-width: 413px) {
+    [class*="card"] {
+        width: 85px;
+        height: 80px;
+    }
+    .face {
+        width: 85px;
+        height: 80px;
+    }
+}
+
+@media all and (max-width: 413px) {
+    .game-field {
+        width: 380px;
+        height: 270px;
+    }
+}
+
+@media all and (max-width: 393px) {
+    [class*="card"] {
+        width: 80px;
+        height: 75px;
+    }
+    .face {
+        width: 80px;
+        height: 75px;
+    }
+}
+
+@media all and (max-width: 393px) {
+    .game-field {
+        width: 360px;
+        height: 255px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    [class*="card"] {
+        width: 75px;
+        height: 70px;
+    }
+    .face {
+        width: 75px;
+        height: 70px;
+    }
+}
+
+@media all and (max-width: 374px) {
+    .game-field {
+        width: 340px;
+        height: 240px;
+    }
+}
+
+@media all and (max-width: 354px) {
+    [class*="card"] {
+        width: 70px;
+        height: 65px;
+    }
+    .face {
+        width: 70px;
+        height: 65px;
+    }
+}
+
+@media all and (max-width: 354px) {
+    .game-field {
+        width: 320px;
+        height: 225px;
+    }
+}
+
+@media all and (max-width: 333px) {
+    [class*="card"] {
+        width: 65px;
+        height: 60px;
+    }
+    .face {
+        width: 65px;
+        height: 60px;
+    }
+}
+
+@media all and (max-width: 333px) {
+    .game-field {
+        width: 300px;
+        height: 210px;
+    }
+}
+
+@media all and (max-width: 313px) {
+    [class*="card"] {
+        width: 60px;
+        height: 55px;
+    }
+    .face {
+        width: 60px;
+        height: 55px;
+    }
+}
+
+@media all and (max-width: 313px) {
+    .game-field {
+        width: 280px;
+        height: 194px;
+    }
+}
+
+@media all and (max-width: 293px) {
+    [class*="card"] {
+        width: 55px;
+        height: 50px;
+    }
+    .face {
+        width: 55px;
+        height: 50px;
+    }
+}
+
+@media all and (max-width: 293px) {
+    .game-field {
+        width: 260px;
+        height: 179px;
+    }
+}
+
+@media all and (max-width: 273px) {
+    [class*="card"] {
+        width: 50px;
+        height: 45px;
+    }
+    .face {
+        width: 50px;
+        height: 45px;
+    }
+}
+
+@media all and (max-width: 273px) {
+    .game-field {
+        width: 240px;
+        height: 163px;
+    }
+}
+
+@media all and (max-width: 253px) {
+    [class*="card"] {
+        width: 45px;
+        height: 40px;
+    }
+    .face {
+        width: 45px;
+        height: 40px;
+    }
+}
+
+@media all and (max-width: 253px) {
+    .game-field {
+        width: 220px;
+        height: 148px;
+    }
+}
+
+@media all and (max-width: 232px) {
+    [class*="card"] {
+        width: 40px;
+        height: 35px;
+    }
+    .face {
+        width: 40px;
+        height: 35px;
+    }
+}
+
+@media all and (max-width: 232px) {
+    .game-field {
+        width: 200px;
+        height: 133px;
+    }
+}
+
+@media all and (max-width: 213px) {
+    [class*="card"] {
+        width: 35px;
+        height: 30px;
+    }
+    .face {
+        width: 35px;
+        height: 30px;
+    }
+}
+
+@media all and (max-width: 213px) {
+    .game-field {
+        width: 180px;
+        height: 120px;
+    }
+}
+
+@media all and (max-width: 193px) {
+    [class*="card"] {
+        width: 30px;
+        height: 25px;
+    }
+    .face {
+        width: 30px;
+        height: 25px;
+    }
+}
+
+@media all and (max-width: 193px) {
+    .game-field {
+        width: 160px;
+        height: 102px;
+    }
+}
+
+@media all and (max-width: 172px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 25px;
+        height: 20px;
+    }
+    .face {
+        width: 25px;
+        height: 20px;
+    }
+}
+
+@media all and (max-width: 172px) and (min-width: 150px) {
+    .game-field {
+        width: 140px;
+        height: 88px;
+    }
+}
+
+@media all and (max-width: 153px) and (min-width: 150px) {
+    [class*="card"] {
+        width: 20px;
+        height: 15px;
+    }
+    .face {
+        width: 20px;
+        height: 15px;
+    }
+}
+
+@media all and (max-width: 153px) and (min-width: 150px) {
+    .btn-reset {
+        font-size: 7px;
+        height: 30px;
+        margin-bottom: 237px;
+        margin-left: 0px;
+    }
+    .game-field {
+        width: 120px;
+        height: 73px;
+    }
+}

@@ -98,6 +98,12 @@
     }
 }
 
+@media all and (max-width: 443px) {
+    .main-title h2, .tag-line {
+        font-size: 23px;
+    }
+} 
+
 @media all and (max-width: 433px) {
     [class*="card"] {
         width: 90px;
@@ -137,6 +143,9 @@
     }
     .condition {
         font-size: 27px;
+    }
+    .main-title h2, .tag-line {
+        font-size: 21px;
     }
 }
 
@@ -180,6 +189,9 @@
     .condition {
         font-size: 23px;
     }
+    .main-title h2, .tag-line {
+        font-size: 19px;
+    }
 }
 
 @media all and (max-width: 354px) {
@@ -197,6 +209,12 @@
     .game-field {
         width: 320px;
         height: 225px;
+    }
+}
+
+@media all and (max-width: 339px) {
+    .main-title h2, .tag-line {
+        font-size: 17px;
     }
 }
 
@@ -242,6 +260,12 @@
     }
 }
 
+@media all and (max-width: 304px) {
+    .main-title h2, .tag-line {
+        font-size: 15px;
+    }
+}
+
 @media all and (max-width: 293px) {
     [class*="card"] {
         width: 55px;
@@ -284,6 +308,12 @@
     }
 }
 
+@media all and (max-width: 269px) {
+    .main-title h2, .tag-line {
+        font-size: 13px;
+    }
+}
+
 @media all and (max-width: 253px) {
     [class*="card"] {
         width: 45px;
@@ -302,6 +332,15 @@
     }
     .condition {
         font-size: 13px;
+    }
+}
+
+@media all and (max-width: 234px) {
+    .main-title h2, .tag-line {
+        font-size: px;
+    }
+    .tag-line {
+        padding-top: 0;
     }
 }
 
@@ -401,5 +440,8 @@
     }
     .condition {
         font-size: 7px;
+    }
+    .main-title h2, .tag-line {
+        padding-top: 5px;
     }
 }

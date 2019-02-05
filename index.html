@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RUSSIAN ROULETTE</title>
-<!---I have chosen and imported a text style from Google Fonts--->
+<!--I have chosen and imported a text style from Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -17,13 +17,13 @@
         <h2>RUSSIAN ROULETTE</h2>
         <p class="tag-line">Can you catch the Communists?</p>
     </div>
-<!---Creating the layout to my game field--->
+<!--Creating the layout to my game field-->
     <section class="game-field">
-        <!---Adding a gif for when the user resets the game--->
+        <!--Adding a gif for when the user resets the game-->
             <div id="loader">
                 <image src="assets/images/soviet-loader.gif" width="100%" height="100%" />
             </div>
-            <div class="card" data-image="stalin"> <!---I have used a data attribute for each card to help me create a match--->
+            <div class="card" data-image="stalin"> <!--I have used a data attribute for each card to help me create a match-->
                 <image class="face" src="assets/images/0.jpg" id="Stalin" alt="Stalin" />
                 <image class="back-card" src="assets/images/card-bg.jpg" alt="Card face down (Soviet logo)" />
             </div>
@@ -73,16 +73,18 @@
             </div>
     </section>
 
-<!---I have created a reset button so the player can reset the game at anytime--->
+<!--I have created a reset button so the player can reset the game at anytime-->
     <button onclick="resetButton()" class="btn-reset">Reset</button>
-<!----<footer class="footer">
-    <p class="creator">Designed & Created by Chris Fowler</p>
-    <a target="_blank" href="https://github.com/Chrisss09"><i class="fab fa-github-square"></i></a>
-</footer>--->
-<!---I have imported the jQuery CDN so I can style this on my game--->
+
+    <footer class="footer">
+        <span class="creator">Designed & Created by Chris Fowler<span>&copy; 2019</span></p>
+        <a target="_blank" href="https://github.com/Chrisss09"><i class="fab fa-github-square"></i></a>
+    </footer>
+
+<!--I have imported the jQuery CDN so I can style this on my game-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-<!---Here I have connected my JS page--->
+<!--Here I have connected my JS page-->
     <script src="assets/js/main.js"></script>
     <script src="assets/js/extra.js"></script>
 </body>

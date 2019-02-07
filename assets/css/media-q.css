@@ -1,3 +1,21 @@
+@media all and (max-width: 1280px) {
+    [class*="card"] {
+        width: 145px;
+        height: 137px;
+    }
+    .face {
+        width: 145px;
+        height: 137px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .game-field {
+        width: 623px;
+        height: 440px;
+    }
+}
+
 @media all and (max-width: 627px) {
     [class*="card"] {
         width: 133px;

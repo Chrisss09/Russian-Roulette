@@ -92,7 +92,9 @@ body{
     height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d; /*This will create a 3D effect*/
+    -webkit-transition: transform .5s;
     transition: transform .5s; /*Creating a smooth transition effect to flip my cards over*/
 }
 
@@ -104,11 +106,14 @@ body{
     width: 138px;
     height: 130px;
     position: absolute;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden; /*This property will hide the backface to allow visibility of my card underneath*/
     cursor: pointer;
 }
 
 .face {
+    z-index: 2;
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg); /*This now will allow me to see the card underneath when clicked*/
 }
 

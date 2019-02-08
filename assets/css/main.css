@@ -93,19 +93,10 @@ body{
     margin: 5px;
     position: relative;
     transform-style: preserve-3d; /*This will create a 3D effect*/
-    -webkit-transition: transform .5s;
-    -moz-transition: transform .5s;
-    -o-transition: transform .5s;
-    -ms-transition: transform .5s;
     transition: transform .5s; /*Creating a smooth transition effect to flip my cards over*/
-
 }
 
 .card.flip {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
     transform: rotateY(180deg); /*Added a class to flip the cards*/
 }
 
@@ -118,10 +109,6 @@ body{
 }
 
 .face {
-    -webkit-transform: rotateY(180deg);
-    -moz-transform: rotateY(180deg);
-    -o-transform: rotateY(180deg);
-    -ms-transform: rotateY(180deg);
     transform: rotateY(180deg); /*This now will allow me to see the card underneath when clicked*/
 }
 

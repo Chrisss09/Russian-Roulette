@@ -94,14 +94,18 @@ body{
     position: relative;
     transform-style: preserve-3d; /*This will create a 3D effect*/
     transition: transform .5s; /*Creating a smooth transition effect to flip my cards over*/
-    -moz-transition-transform: .5s;
-    -ms-transition-transform: .5s;
-    -webkit-transition-transform: .5s;
-    -o-transition-transform: .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -webkit-transition: transform .5s;
+    -o-transition: transform .5s;
 }
 
 .card.flip {
     transform: rotateY(180deg); /*Added a class to flip the cards*/
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
 }
 
 .face, .back-card {

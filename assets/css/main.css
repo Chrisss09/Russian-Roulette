@@ -102,10 +102,6 @@ body{
 
 .card.flip {
     transform: rotateY(180deg); /*Added a class to flip the cards*/
-    -moz-transition-transform: rotateY(180deg);
-    -ms-transition-transform: rotateY(180deg);
-    -webkit-transition-transform: rotateY(180deg);
-    -o-transition-transform: rotateY(180deg);
 }
 
 .face, .back-card {
@@ -118,10 +114,6 @@ body{
 
 .face {
     transform: rotateY(180deg); /*This now will allow me to see the card underneath when clicked*/
-    -moz-transition-transform: rotateY(180deg);
-    -ms-transition-transform: rotateY(180deg);
-    -webkit-transition-transform: rotateY(180deg);
-    -o-transition-transform: rotateY(180deg);
 }
 
 .btn-reset {

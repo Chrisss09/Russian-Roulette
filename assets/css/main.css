@@ -13,10 +13,6 @@ body{
     padding-top: 14px;
 }
 
-.main-game {
-    min-height: 100%;
-}
-
 .game-field {
     margin-top: 80px!important;
     width: 600px;

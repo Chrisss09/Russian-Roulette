@@ -21,7 +21,7 @@ body{
     margin-top: 80px!important;
     width: 600px;
     height: 415px;
-    margin: 0 auto;
+    margin: 0 auto; /*Centers the game field*/
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 10px;
@@ -92,7 +92,7 @@ body{
     height: calc(33.333% - 10px);
     margin: 5px;
     position: relative;
-    -webkit-transform-style: preserve-3d;
+    -webkit-transform-style: preserve-3d; /*Making my 3D effect compatible for different browsers*/
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
@@ -112,7 +112,7 @@ body{
     width: 138px;
     height: 130px;
     position: absolute;
-    -webkit-backface-visibility: hidden;
+    -webkit-backface-visibility: hidden; /*Making the backface visibility compatible for different browsers*/
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
@@ -122,7 +122,7 @@ body{
 
 .face {
     z-index: 2;
-    -webkit-transform: rotateY(180deg);
+    -webkit-transform: rotateY(180deg); /*Making the rotate effect compatible for different browsers*/
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);

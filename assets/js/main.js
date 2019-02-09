@@ -8,7 +8,8 @@ let gameWon = 0;
 
 function flipCard() {
     if (stopFlip) return;
-    if (this === firstCard) return; //Once clicked on the second card this will match up with the first card
+    if (this === firstCard) return; //This stops user from double clicking on the same card and removing the event listener
+    //Once clicked on the second card this will match up with the first card
     this.classList.add('flip'); //On click this will add the style class 'flip'
 
     if(!flippedCard) {
@@ -16,13 +17,13 @@ function flipCard() {
         flippedCard = true;
         firstCard = this;
 
-        return;
+        return; //If true then the return will stop here
     }
         //The second click is set to false
         flippedCard = false;
         secondCard = this;
 
-        checkMatch();
+        checkMatch(); //If false then this will use the IF function
 }
 
 function checkMatch(){
@@ -35,7 +36,7 @@ function checkMatch(){
 
 //If cards match then the event listner will be taken away to prevent them from being clicked again
 function matchedCard() {
-    firstCard.removeEventListener("click", flipCard);
+    firstCard.removeEventListener("click", flipCard); 
     secondCard.removeEventListener("click", flipCard);
     fieldReset();
     //I have added in a rule to allow the user to win a game by creating an IF statement and a jQuery for a win.
@@ -50,10 +51,11 @@ function matchedCard() {
 }
 
 //If it is not a match the cards will flip back around
+//The set timeout will allow the user to see what two cards they have clicked and then rotate back
 function flipCardBack(){
-    stopFlip = true;
+    stopFlip = true; //This stops the cards getting flipped whilst other cards are flipping over
     setTimeout(() => {
-        firstCard.classList.remove("flip");
+        firstCard.classList.remove("flip"); //This will remove the 'flip' class
         secondCard.classList.remove("flip"); 
         fieldReset();
     }, 700);
@@ -68,7 +70,7 @@ function flipCardBack(){
     }
 }
 
-//Allows the user to click on another 2 x cards after their first turn
+//Whether the user has clicked on a match or not this allows the user to click on another 2 x cards after their first turn
 function fieldReset(){
     [flippedCard, stopFlip] = [false, false];
     [firstCard, secondCard] = [null, null];

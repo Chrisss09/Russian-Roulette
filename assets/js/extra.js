@@ -1,3 +1,4 @@
+//Created a function to use for a reset button
 function resetButton() {
     location.reload();
 }

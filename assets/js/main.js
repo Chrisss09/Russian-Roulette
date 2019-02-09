@@ -1,6 +1,6 @@
-const cards = document.querySelectorAll('.card'); //Store my cards in a const
+const cards = document.querySelectorAll('.card'); //Lists my cards in a const
 
-let flippedCard = false; //First card has been clicked on users turn.
+let flippedCard = false; //First card has been clicked on users turn. This has the value of false because this is the first card.
 let stopFlip = false; //Stops other cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
 let noMatches = 0;
@@ -9,16 +9,16 @@ let gameWon = 0;
 function flipCard() {
     if (stopFlip) return;
     if (this === firstCard) return; //Once clicked on the second card this will match up with the first card
-    this.classList.add('flip');
+    this.classList.add('flip'); //On click this will add the style class 'flip'
 
     if(!flippedCard) {
-        //first click
+        //The first click will be true
         flippedCard = true;
         firstCard = this;
 
         return;
     }
-        //Second click
+        //The second click is set to false
         flippedCard = false;
         secondCard = this;
 
@@ -26,17 +26,20 @@ function flipCard() {
 }
 
 function checkMatch(){
-    //Check to see if cards match using the individual data tags added to the index page by using a ternary operator
+    //Check to see if cards match using the individual data attributes added to the index page by using a ternary operator
+    //If the first image matches the second image then it is a match
     let isMatch =  firstCard.dataset.image === secondCard.dataset.image;
 
     isMatch ? matchedCard() : flipCardBack();
 }
 
-//If cards match then the event listner will be taken away to prevent them from being clicked
+//If cards match then the event listner will be taken away to prevent them from being clicked again
 function matchedCard() {
     firstCard.removeEventListener("click", flipCard);
     secondCard.removeEventListener("click", flipCard);
     fieldReset();
+    //I have added in a rule to allow the user to win a game by creating an IF statement and a jQuery for a win.
+    //Once all 6 pairs have been revealed it will add my "new-field-win class". 
     gameWon += 1;
     if(gameWon === 6) {
         $(document).ready(function(){
@@ -54,6 +57,8 @@ function flipCardBack(){
         secondCard.classList.remove("flip"); 
         fieldReset();
     }, 700);
+    //I have added in a rule if the user was to lose a game by creating an IF statement and a jQuery for a loss.
+    //If you have 8 no matches in one gama it will add my "new-field-lose class". 
     noMatches += 1;
     if(noMatches === 8) {
         $(document).ready(function(){

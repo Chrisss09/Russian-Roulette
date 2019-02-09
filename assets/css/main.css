@@ -18,14 +18,15 @@ body{
     width: 600px;
     height: 415px;
     margin: 0 auto; /*Centers the game field*/
-    display: flex;
-    flex-wrap: wrap;
+    display: flex; /* Keeps everything in the container*/
+    flex-wrap: wrap; /* Makes the cards readable*/
     margin-bottom: 10px;
     background: gray;
     background-image: none;
     perspective: 1000px; /*This will add depth to the flipping effect*/
 }
 
+/* I duplicated the game field class to replace it if the user loses and then it will add a different image*/
 .new-field-lose {
     margin-top: 80px!important;
     width: 600px;
@@ -40,6 +41,7 @@ body{
     background-position:center;
 }
 
+/* I again duplicated the game field class to replace it if the user wins and then it will add a different image*/
 .new-field-win {
     margin-top: 80px!important;
     width: 600px;
@@ -87,7 +89,7 @@ body{
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
     margin: 5px;
-    position: relative;
+    position: relative; /*Position overlaps the cards*/
     -webkit-transform-style: preserve-3d; /*Making my 3D effect compatible for different browsers*/
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;

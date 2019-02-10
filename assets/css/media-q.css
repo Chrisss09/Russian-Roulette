@@ -17,6 +17,83 @@
     }
 }
 
+@media all and (max-width: 709px) {
+    [class*="card"] {
+        width: 155px;
+        height: 145px;
+    }
+    .face {
+        width: 155px;
+        height: 145px;
+    }
+}
+
+@media all and (max-width: 709px) {
+    .game-field {
+        width: 660px;
+        height: 475px;
+
+    }
+}
+
+@media all and (max-width: 692px) {
+    [class*="card"] {
+        width: 150px;
+        height: 140px;
+    }
+    .face {
+        width: 150px;
+        height: 140px;
+    }
+}
+
+@media all and (max-width: 692px) {
+    .game-field {
+        width: 643px;
+        height: 454px;
+
+    }
+}
+
+@media all and (max-width: 672px) {
+    [class*="card"] {
+        width: 145px;
+        height: 135px;
+    }
+    .face {
+        width: 145px;
+        height: 130px;
+    }
+}
+
+@media all and (max-width: 672px) {
+    .game-field {
+        width: 622px;
+        height: 443px;
+
+    }
+}
+
+@media all and (max-width: 652px) {
+    [class*="card"] {
+        width: 140px;
+        height: 130px;
+    }
+    .face {
+        width: 140px;
+        height: 130px;
+    }
+}
+
+@media all and (max-width: 652px) {
+    .game-field {
+        width: 600px;
+        height: 430px;
+
+    }
+}
+
+
 @media all and (max-width: 627px) {
     [class*="card"] {
         width: 133px;

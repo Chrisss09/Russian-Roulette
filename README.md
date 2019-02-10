@@ -21,3 +21,9 @@
 
 <p>For this project I had more ideas to expand my game that I would like to look into in the future but I felt I was running out of time. I would of liked to have created a new box underneath the game and when the user would click on a card the box will then show their name and create a match. Also I would of liked to add some sound to the game, if you lose I would have the Soviet National Anthem play and if you win the Russian National Anthem would play.</p>
 
+<h2>Technologies used</h2>
+
+<p>In my project I have used several technologies to make this successful, which are;</p>
+
+<li>Semantic HTML5 to structure the game.</li>
+<li>CSS3 to style the content.</li>

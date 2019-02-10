@@ -32,3 +32,8 @@
 <li>To create my game I have used Visual Studio Code.</li>
 <li>I have used Git and Github for source control management.</li>
 <li>I have used JQuery to add classes if the user wins or loses.</li>
+
+<h2>Testing</h2>
+
+<h4>Manual Testing</h4>
+

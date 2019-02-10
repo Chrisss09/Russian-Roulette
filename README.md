@@ -37,3 +37,8 @@
 
 <h4>Manual Testing</h4>
 
+<p>Throughout my project I have tested it manually using the Google developer tools for my styles which helped me better develop my project. One of the ways it helped me was with my media queries, I tested the mobile response first then added it to the project in VS Code once I found the correct amendments.</p>
+<p>I also used the Google developer tools when styling my cards to get them in the correct position until I was happy with them.</p>
+<p>At the start of my project I had an issue with extra unwanted space when styling my main title and making it responsive. To rectify this I found out I had to make my game field smaller along side the title and then this cuts out the extra space.</p>
+<p>I used the Google developer tools to test the layout on all the different devices such as Samsung and IPhone to make sure the game fits the screen properly.</p>
+<p>I manually tested my javascript as I have gone along by using console log to see if everything is working correctly at that point.</p>

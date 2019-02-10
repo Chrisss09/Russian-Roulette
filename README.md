@@ -7,4 +7,4 @@
 
 <h2>UX</h2>
 
-<p>I have created this app for people like me who have an interest for Russian history and want to have fun 
+<p>I have created this app for people like me who have an interest for Russian history and want to have fun with it. On reading the project brief and researching memory games I instantly knew what I wanted to acheive, so I sketched in my writing pad what I wanted it to look like with a list of features to implement.</p>

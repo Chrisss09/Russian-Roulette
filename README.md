@@ -15,7 +15,7 @@
 
 <h4>Mobile Response<h4>
 
-<p>For this project I have created a seperate CSS page for my mobile response   </p>
+<p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on.</p>
 
 <p>For this project I had more ideas to expand my game that I would like to look into in the future but I felt I was running out of time. I would of liked to have created a new box underneath the game and when the user would click on a card the box will then show their name and create a match. Also I would of liked to add some sound to the game, if you lose I would have the Soviet National Anthem play and if you win the Russian National Anthem would play.</p>
 

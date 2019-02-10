@@ -12,6 +12,11 @@
 <h2>Features</h2>
 
 <p>The main feature to my game is to allow the user to click on a card and for it to flip over. I have done this by adding a transform rotate property with a 3D effect. Also I have added a reset button for the user to restart the game at any point.</p>
+<p>To make my game interactive I have used Javascript programming and this will tell the computer on how we can identify two pairs such as using my checkMatch function which uses my dataset attribute.</p>
+<p>I have also created a shuffle feature which will shuffle every position of the cards everytime the game gets reset.</p>
+<p>I have added in a winning page using JS and JQuery. Once the user has flipped all the cards the JQuery will add another class I have created and replace the field with a winning photo.</p>
+<p>I have also set a rule for losing the game. If the user is unsuccessful in 8 turns then that is game over and you would lose. I have then applied the same rules for this but I have made a rule class and the JQuery can add the lose class when you have lost.</p>
+<p>I have also thought about how the user would lose, I have set this to 8 because this gives the user plenty of chances to win, this is a memory game and not a competitive game. With 6 turns the user will then have seen every card and may have matched a few up along the way and then that leaves two more turns for the user to succeed. I did have it on 9 turns but after testing it for a while I thought 9 was too easy so I changed it to 8.</p>
 
 <h4>Future additions</h4>
 
@@ -41,6 +46,7 @@
 <p>I have tested my game on Google Chrome and everything works as it should.</p>
 <p>I have tested my game on Safari and I discovered an issue that the cards did not flip over and they just flickered. After research, I found on Stack Overflow that another user had the same issue and I needed to add the webkit to my transition property where the cards flip over in my CSS styles sheet. I then added the moz, ms and o which helps the game work on other browsers and now all works as it should.</p> 
 <p>Before I added in the browser compatibility properties I had an issue with Internet Explorer where the cards moved slowly around but now this has been rectified</p>
+<p>I have sent the link to my family and friends as well as students on the course to test out and I received positive feedback. I have also played the game many times to test if everything works such as for the win and loss rules of the game.</p>
 
 <h4>Mobile Response</h4>
 

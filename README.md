@@ -27,3 +27,8 @@
 
 <li>Semantic HTML5 to structure the game.</li>
 <li>CSS3 to style the content.</li>
+<li>I have used Google Fonts to add an external font called 'Orbitron' for a suitable style.</li>
+<li>The game uses Javascript to allow the user to play and interact with the game.</li>
+<li>To create my game I have used Visual Studio Code.</li>
+<li>I have used Git and Github for source control management.</li>
+<li>I have used JQuery to add classes if the user wins or loses.</li>

@@ -13,4 +13,9 @@
 
 <p>The main feature to my game is to allow the user to click on a card and for it to flip over. I have done this by adding a transform rotate property with a 3D effect. Also I have added a reset button for the user to restart the game at any point.</p>
 
-<p>For this project I had more ideas to expand my game that I would like to look into in the future but I felt I was running out of time. I would of liked to have created a new box underneath the game and when the user would click on a card the box will then show their name and create a match. Also I would of liked to add some sound to the game, if you lose I would have the Soviet National Anthem play and if you win the Russian National Anthem would play. 
+<h4>Mobile Response<h4>
+
+<p>For this project I have created a seperate CSS page for my mobile response   </p>
+
+<p>For this project I had more ideas to expand my game that I would like to look into in the future but I felt I was running out of time. I would of liked to have created a new box underneath the game and when the user would click on a card the box will then show their name and create a match. Also I would of liked to add some sound to the game, if you lose I would have the Soviet National Anthem play and if you win the Russian National Anthem would play.</p>
+

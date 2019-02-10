@@ -8,3 +8,9 @@
 <h2>UX</h2>
 
 <p>I have created this app for people like me who have an interest for Russian history and want to have fun with it. On reading the project brief and researching memory games I instantly knew what I wanted to acheive, so I sketched in my writing pad what I wanted it to look like with a list of features to implement.</p>
+
+<h2>Features</h2>
+
+<p>The main feature to my game is to allow the user to click on a card and for it to flip over. I have done this by adding a transform rotate property with a 3D effect. Also I have added a reset button for the user to restart the game at any point.</p>
+
+<p>For this project I had more ideas to expand my game that I would like to look into in the future but I felt I was running out of time. I would of liked to have created a new box underneath the game and when the user would click on a card the box will then show their name and create a match. Also I would of liked to add some sound to the game, if you lose I would have the Soviet National Anthem play and if you win the Russian National Anthem would play. 

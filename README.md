@@ -42,3 +42,5 @@
 <p>At the start of my project I had an issue with extra unwanted space when styling my main title and making it responsive. To rectify this I found out I had to make my game field smaller along side the title and then this cuts out the extra space.</p>
 <p>I used the Google developer tools to test the layout on all the different devices such as Samsung and IPhone to make sure the game fits the screen properly.</p>
 <p>I manually tested my javascript as I have gone along by using console log to see if everything is working correctly at that point.</p>
+<p>I have tested my game on Google Chrome and everything works as it should</p>
+<p>I have tested my game on Safari and I discovered an issue that the cards did not flip over and they just flickered. After research, I found on Stack Overflow that another user had the same issue and I needed to add the webkit to my transition property where the cards flip over, and now all works as it should.</p> 

@@ -97,4 +97,5 @@
 
 <li>To programme my game I have watched various YouTube tutorial videos on JavaScript for me to put my codes together.</li>
 <li>I have also used Stack Overflow to help with other parts to my game such as setting my win and lose rules.</li>
-<li> I have also used both Slack and Stack Overflow to help me with Browser compatibility as their was another user with the same issue as me.</li>
+<li>I have also used both Slack and Stack Overflow to help me with Browser compatibility as their was another user with the same issue as me.</li>
+<li>I want to thank my friends and family for their help with my project as they have taken time to play it and give me some feedback.</li>

@@ -73,3 +73,9 @@
 <p>I also tested my CSS Styles using WC3 CSS Validation Service's website and everything came back all ok.</p>
 
 <h2>Deployment</h2>
+
+<p>To deploy my website onto a server I used GitHub and to start off I signed into my GitHub account and created a new repository and called my new project a suitable name. Once that has been saved I copied the url link that GitHub gave me and then I opened up Visual Studio Code which is what I am using for my project. On the start up screen I clicked on 'Clone Git Repository' and then I pasted the url into that and then I selected my root folder that I created earlier to start my project. Now I can open up my folder on Visual Studio Code and it is now linked to my GitHub page, and once I make the changes for example add my HTML and CSS coding, I can then open up the terminal in VSC and I can use my Git codes such as 'git status', 'git add .' and 'git push' which will send this through to my github repository.</p>
+
+<p>I can then use the repository to save my updates and share my work with others. Also in my settings on my github page I can set it to my master branch which will then give me my url address which means it is now on the World Wide Web. I can also use VSC to run my website locally.</p>
+
+<p>From my feedback from my first assignment, one of my negatives was that I did not name my commits with useful names so with this assignment I focussed on doing that and I think I hit the target and did much better on this assignment.</p>

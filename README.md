@@ -79,3 +79,9 @@
 <p>I can then use the repository to save my updates and share my work with others. Also in my settings on my github page I can set it to my master branch which will then give me my url address which means it is now on the World Wide Web. I can also use VSC to run my website locally.</p>
 
 <p>From my feedback from my first assignment, one of my negatives was that I did not name my commits with useful names so with this assignment I focussed on doing that and I think I hit the target and did much better on this assignment.</p>
+
+<h2>Credits</h2>
+
+<h4>Content</h4>
+
+<p>

@@ -93,7 +93,7 @@
 
 <h4>Acknowledgements</h4>
 
-<p>To make my project a success I used various sources over the internet.<li>
+<p>To make my project a success I used various sources over the internet.</p>
 
 <li>To programme my game I have watched various YouTube tutorial videos on JavaScript for me to put my codes together.</li>
 <li>I have also used Stack Overflow to help with other parts to my game such as setting my win and lose rules.</li>

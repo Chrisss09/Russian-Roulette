@@ -68,6 +68,8 @@
 <p>To test my HTML I have used WC3 Markup Validation Service's website and I found the following errors;</p>
 <li>No alt on my loading GIF - I have now added this in</li>
 <li>My loader GIF had the width and height set to 100% within the image source - I removed this and added it to my styles sheet</li>  
-<li>Duplicated ID's for my images - I have now taken this out, this was due to my idea with of pulling up the ID names when the user clicks on the.</li>
+<li>Duplicated ID's for my images - I have now taken this out, this was due to my idea with of pulling up the ID names when the user clicks on the image.</li>
 
 <p>I also tested my CSS Styles using WC3 CSS Validation Service's website and everything came back all ok.</p>
+
+<h2>Deployment</h2>

@@ -89,4 +89,12 @@
 <h4>Media</h4>
 
 <p>The photos I used for my game I downloaded from Google Images and I selected the small image sizes because I only needed the small pictures.</p>
-<p>To get my GIF image I got this through Google but on a site call Giphy</p>
+<p>To get my GIF image I got this through Google but on a site call Giphy.</p>
+
+<h4>Acknowledgements</h4>
+
+<p>To make my project a success I used various sources over the internet.<li>
+
+<li>To programme my game I have watched various YouTube tutorial videos on JavaScript for me to put my codes together.</li>
+<li>I have also used Stack Overflow to help with other parts to my game such as setting my win and lose rules.</li>
+<li> I have also used both Slack and Stack Overflow to help me with Browser compatibility as their was another user with the same issue as me.</li>

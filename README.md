@@ -40,15 +40,25 @@
 <h4>Manual Testing</h4>
 
 <p>Throughout my project I have tested it manually using the Google developer tools for my styles which helped me better develop my project. One of the ways it helped me was with my media queries, I tested the mobile response first then added it to the project in VS Code once I found the correct amendments.</p>
+
 <p>I also used the Google developer tools when styling my cards to get them in the correct position until I was happy with them.</p>
+
 <p>At the start of my project I had an issue with extra unwanted space when styling my main title and making it responsive. To rectify this I found out I had to make my game field smaller along side the title and then this cuts out the extra space.</p>
+
 <p>I used the Google developer tools to test the layout on all the different devices such as Samsung and IPhone to make sure the game fits the screen properly.</p>
+
 <p>I manually tested my javascript as I have gone along by using console log to see if everything is working correctly at that point.</p>
+
 <p>I have tested my game on Google Chrome and everything works as it should.</p>
+
 <p>I have tested my game on Safari and I discovered an issue that the cards did not flip over and they just flickered. After research, I found on Stack Overflow that another user had the same issue and I needed to add the webkit to my transition property where the cards flip over in my CSS styles sheet. I then added the moz, ms and o which helps the game work on other browsers and now all works as it should.</p> 
+
 <p>Before I added in the browser compatibility properties I had an issue with Internet Explorer where the cards moved slowly around but now this has been rectified</p>
+
 <p>I have sent the link to my family and friends as well as students on the course to test out and I received positive feedback. I have also played the game many times to test if everything works such as for the win and loss rules of the game.</p>
 
 <h4>Mobile Response</h4>
 
 <p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on. I have tested the mobile response on an actual Samsung phone and a couple of different Iphones, plus the different options with the Google developer tools, and all works as it should.</p>
+
+<p>When I decided to add in an extra page for my media queries I did a lot of trial and errors with playing about with the screen sizes and styling and I felt doing that I learned more about media queries and half way through the assignment I thought that I could do better so I created an extra page and started writing my media query page again and I think it all looked better and tidier.</p> 

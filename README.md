@@ -12,7 +12,7 @@
 <h2>Features</h2>
 
 <p>The main feature to my game is to allow the user to click on a card and for it to flip over. I have done this by adding a transform rotate property with a 3D effect. Also I have added a reset button for the user to restart the game at any point.</p>
-<p>To make my game more fun, everytime the user clicks on the reset button I have added in a GIF image of a moving Soviet flag.</p>
+<p>To make my game more fun, and professional everytime the user clicks on the reset button I have added in a GIF image of a moving Soviet flag.</p>
 <p>To make my game interactive I have used Javascript programming and this will tell the computer on how we can identify two pairs such as using my checkMatch function which uses my dataset attribute.</p>
 <p>I have also created a shuffle feature which will shuffle every position of the cards everytime the game gets reset.</p>
 <p>I have added in a winning page using JS and JQuery. Once the user has flipped all the cards the JQuery will add another class I have created and replace the field with a winning photo.</p>
@@ -84,4 +84,9 @@
 
 <h4>Content</h4>
 
-<p>
+<p>My text for the whole project is exported from Google Fonts - I found one that I really liked and I thought that would suit my theme.</p>
+
+<h4>Media</h4>
+
+<p>The photos I used for my game I downloaded from Google Images and I selected the small image sizes because I only needed the small pictures.</p>
+<p>To get my GIF image I got this through Google but on a site call Giphy</p>

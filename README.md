@@ -62,3 +62,10 @@
 <p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on. I have tested the mobile response on an actual Samsung phone and a couple of different Iphones, plus the different options with the Google developer tools, and all works as it should.</p>
 
 <p>When I decided to add in an extra page for my media queries I did a lot of trial and errors with playing about with the screen sizes and styling and I felt doing that I learned more about media queries and half way through the assignment I thought that I could do better so I created an extra page and started writing my media query page again and I think it all looked better and tidier.</p> 
+
+<h4>Validation Testing</h4>
+
+<p>To test my HTML I have used WC3 Markup Validation Service's website and I found the following errors;</p>
+<li>No alt on my loading GIF - I have now added this in</li>
+<li>My loader GIF had the width and height set to 100% within the image source - I removed this and added it to my styles sheet</li>  
+<li>Duplicated ID's for my images - I have now taken this out, this was due to my idea with of pulling up the ID names when the user clicks on the.</li>

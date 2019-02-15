@@ -1,5 +1,5 @@
 describe("Russian Roulette", function(){
-    it("should flip card", function(){
-
+    it("should check card", function(){
+        expect(flippedCard).toBe(false);
     });
 });

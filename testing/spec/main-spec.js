@@ -21,8 +21,7 @@ describe("Winning the game", function(){
     it("should win after 6 turns", function(){
         let gameWon = 6;
         expect(gameWon).toEqual(6);
-        expect(gameWon).toBeGreaterThan(5);
-        expect(gameWon).toBeLessThan(7);
+        expect(gameWon).not.toBeLessThan(6);
     });
 });
 
@@ -30,8 +29,7 @@ describe("Losing the game", function(){
     it("should lose after 8 failed turns", function(){
         let noMatches = 8;
         expect(noMatches).toEqual(8);
-        expect(noMatches).toBeGreaterThan(7);
-        expect(noMatches).toBeLessThan(9);
+        expect(noMatches).not.toBeGreaterThan(8);
     });
 });
 

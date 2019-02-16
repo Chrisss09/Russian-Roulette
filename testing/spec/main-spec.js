@@ -16,7 +16,6 @@ describe("Flip card testing", function(){
     });
 });
 
-
 describe("Testing the conditions", function(){
     it("should win after 6 turns", function(){
         let gameWon = 6;
@@ -39,6 +38,9 @@ describe("Checking added classes", function(){
     });
     it("should exist in the game", function(){
         expect('<p class="condition">You Win - The Communists have been captured!</p>').toExist();
+    });
+    it("should see class card", function(){
+        expect($('<div class="game-field"></div>')).toContainHtml('<div class="card></div>');
     });
 });
 

@@ -1,0 +1,144 @@
+body{
+    background: url("../images/main-bg.jpg") repeat;
+}
+
+.main-title h2, .tag-line {
+    min-height: 40px;
+    background-color: black;
+    color: red;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin: -8px;
+    padding-top: 14px;
+}
+
+.game-field {
+    margin-top: 80px!important;
+    width: 600px;
+    height: 415px;
+    margin: 0 auto; /*Centers the game field*/
+    display: flex; /* Keeps everything in the container*/
+    flex-wrap: wrap; /* Makes the cards readable*/
+    margin-bottom: 10px;
+    background: gray;
+    background-image: none;
+    perspective: 1000px; /*This will add depth to the flipping effect*/
+}
+
+/* I duplicated the game field class to replace it if the user loses and then it will add a different image*/
+.new-field-lose {
+    margin-top: 80px!important;
+    width: 600px;
+    height: 415px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-image: url("../images/you-lose.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+/* I again duplicated the game field class to replace it if the user wins and then it will add a different image*/
+.new-field-win {
+    margin-top: 80px!important;
+    width: 600px;
+    height: 415px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    background-image: url("../images/you-win.jpg");
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}
+
+.condition {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: red;
+    font-weight: bolder;
+    margin-top: 30%;
+    background-color: black;
+    position: absolute
+}
+
+#loader {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    transition: all .60s;
+}
+
+#loader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative; /*Position overlaps the cards*/
+    -webkit-transform-style: preserve-3d; /*Making my 3D effect compatible for different browsers*/
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d; /*This will create a 3D effect*/
+    -webkit-transition: transform .5s;
+    -moz-transition: transform .5s;
+    -ms-transition: transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s; /*Creating a smooth transition effect to flip my cards over*/
+}
+
+.card.flip {
+    transform: rotateY(180deg); /*Added a class to flip the cards*/
+}
+
+.face, .back-card {
+    width: 138px;
+    height: 130px;
+    position: absolute;
+    -webkit-backface-visibility: hidden; /*Making the backface visibility compatible for different browsers*/
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden; /*This property will hide the backface to allow visibility of my card underneath*/
+    cursor: pointer;
+}
+
+.face {
+    z-index: 2;
+    -webkit-transform: rotateY(180deg); /*Making the rotate effect compatible for different browsers*/
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg); /*This now will allow me to see the card underneath when clicked*/
+}
+
+.btn-reset {
+    margin: 0 auto!important;
+    background-color: red; 
+    border: solid 2px #fff;
+    border-radius: 8px;
+    color: white;
+    padding: 11px 32px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+}

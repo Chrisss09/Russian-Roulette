@@ -60,7 +60,7 @@ function flipCardBack(){
         fieldReset();
     }, 700);
     //I have added in a rule if the user was to lose a game by creating an IF statement and a jQuery for a loss.
-    //If you have 8 no matches in one gama it will add my "new-field-lose class". 
+    //If you have 8 no matches in one game it will add my "new-field-lose class". 
     noMatches += 1;
     if(noMatches === 8) {
         $(document).ready(function(){

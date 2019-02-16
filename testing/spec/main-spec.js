@@ -32,15 +32,19 @@ describe("Testing the conditions", function(){
 describe("Checking added classes", function(){
     it("should show the winning class", function(){
         expect($('.game-field').addClass('new-field-win')).toBeTruthy();
+        //check to see if my new-field-win class works
     });
     it("should show the losing class", function(){
         expect($('.game-field').addClass('new-field-lose')).toBeTruthy();
+        //check to see if my new-field-lose class works
     });
     it("should exist in the game", function(){
         expect('<p class="condition">You Win - The Communists have been captured!</p>').toExist();
+        //check to see if my condition class exists
     });
     it("should see class card", function(){
         expect($('<div class="game-field"></div>')).toContainHtml('<div class="card></div>');
+        //check to see if my game-field class has a class card in it
     });
 });
 

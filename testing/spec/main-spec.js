@@ -21,11 +21,13 @@ describe("Testing the conditions", function(){
         let gameWon = 6;
         expect(gameWon).toEqual(6);
         expect(gameWon).not.toBeLessThan(6);
+        expect(gameWon).not.toBeGreaterThan(6);
     });
     it("should lose after 8 failed turns", function(){
         let noMatches = 8;
         expect(noMatches).toEqual(8);
         expect(noMatches).not.toBeGreaterThan(8);
+        expect(noMatches).not.toBeLessThan(8);
     });
 });
 

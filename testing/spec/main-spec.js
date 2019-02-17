@@ -58,6 +58,8 @@ describe("Testing main.js page", function(){
             expect($('.back-card')).not.toBeHidden();
             //Tested back of card to not be hidden
         });
+        it("should check if any ID's", function(){
+            expect('div').not.toHaveId('#');
+        });
     });
 });
-    

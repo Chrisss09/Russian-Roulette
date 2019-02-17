@@ -85,6 +85,21 @@ function fieldReset(){
     });
 })();
 
-cards.forEach(square => square.addEventListener('click', flipCard)); /*Adding an event listner for each 
-                                                                    card when clicked. When a card is clicked this
-                                                                    will activate the function 'flipCard'*/
+//Adding an event listner for each card when clicked. When a card is clicked this
+//will activate the function 'flipCard'*/
+cards.forEach(square => square.addEventListener('click', flipCard)); 
+
+//Created a function to use for a reset button
+function resetButton() {
+    location.reload();
+}
+
+//Created a loading page using a gif for when the user resets the game
+
+var loader = document.getElementById("loader");
+
+window.addEventListener("load", function(){
+    loader.style.height = "100%";
+    loader.style.width = "100%";
+    loader.style.visibility = "hidden";
+});

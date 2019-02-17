@@ -40,11 +40,23 @@ describe("Checking added classes", function(){
     });
     it("should exist in the game", function(){
         expect('<p class="condition">You Win - The Communists have been captured!</p>').toExist();
-        //check to see if my condition class exists
+        //check to see if my condition class works
     });
     it("should see class card", function(){
         expect($('<div class="game-field"></div>')).toContainHtml('<div class="card></div>');
         //check to see if my game-field class has a class card in it
+    });
+});
+
+describe("Checking hidden elements", function(){
+    it("should check my GIF image", function(){
+        expect('#loader').not.toBeVisible();
+    });
+    it("should check my face card", function(){
+        expect('.face').not.toBeVisible();
+    });
+    it("should check back of card", function(){
+        expect('.back-card').not.toBeHidden();
     });
 });
 

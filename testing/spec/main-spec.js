@@ -1,4 +1,4 @@
-describe("Flip card testing", function(){
+describe("Testing flipping cards", function(){
     it("should check first flip", function(){
         expect(!flippedCard).toBeTruthy(); 
         //flippedCard is set to false so this will show as a pass due to '!' operator
@@ -31,7 +31,7 @@ describe("Testing the conditions", function(){
     });
 });
 
-describe("Checking added classes", function(){
+describe("Testing the classes", function(){
     it("should show the winning class", function(){
         expect($('.game-field').addClass('new-field-win')).toBeTruthy();
         //check to see if my new-field-win class works
@@ -50,7 +50,7 @@ describe("Checking added classes", function(){
     });
 });
 
-describe("Checking hidden elements", function(){
+describe("Testing hidden elements", function(){
     it("should check my GIF image", function(){
         expect('#loader').not.toBeVisible();
     });

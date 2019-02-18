@@ -26,7 +26,6 @@ body{
     perspective: 1000px; /*This will add depth to the flipping effect*/
 }
 
-/* I duplicated the game field class to replace it if the user loses and then it will add a different image*/
 .new-field-lose {
     margin-top: 80px!important;
     width: 600px;
@@ -41,7 +40,6 @@ body{
     background-position:center;
 }
 
-/* I again duplicated the game field class to replace it if the user wins and then it will add a different image*/
 .new-field-win {
     margin-top: 80px!important;
     width: 600px;
@@ -91,42 +89,42 @@ body{
     width: calc(25% - 10px);
     height: calc(33.333% - 10px);
     margin: 5px;
-    position: relative; /*Position overlaps the cards*/
-    -webkit-transform-style: preserve-3d; /*Making my 3D effect compatible for different browsers*/
+    position: relative; 
+    -webkit-transform-style: preserve-3d; 
     -moz-transform-style: preserve-3d;
     -ms-transform-style: preserve-3d;
     -o-transform-style: preserve-3d;
-    transform-style: preserve-3d; /*This will create a 3D effect*/
+    transform-style: preserve-3d; 
     -webkit-transition: transform .5s;
     -moz-transition: transform .5s;
     -ms-transition: transform .5s;
     -o-transition: transform .5s;
-    transition: transform .5s; /*Creating a smooth transition effect to flip my cards over*/
+    transition: transform .5s;
 }
 
 .card.flip {
-    transform: rotateY(180deg); /*Added a class to flip the cards*/
+    transform: rotateY(180deg); 
 }
 
 .face, .back-card {
     width: 138px;
     height: 130px;
     position: absolute;
-    -webkit-backface-visibility: hidden; /*Making the backface visibility compatible for different browsers*/
+    -webkit-backface-visibility: hidden; 
     -moz-backface-visibility: hidden;
     -ms-backface-visibility: hidden;
     -o-backface-visibility: hidden;
-    backface-visibility: hidden; /*This property will hide the backface to allow visibility of my card underneath*/
+    backface-visibility: hidden; 
     cursor: pointer;
 }
 
 .face {
     z-index: 2;
-    -webkit-transform: rotateY(180deg); /*Making the rotate effect compatible for different browsers*/
+    -webkit-transform: rotateY(180deg); 
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
     -o-transform: rotateY(180deg);
-    transform: rotateY(180deg); /*This now will allow me to see the card underneath when clicked*/
+    transform: rotateY(180deg); 
 }
 
 .btn-reset {

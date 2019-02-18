@@ -46,7 +46,7 @@ describe("Testing main.js page", function(){
     });
     
     describe("Testing my classes", function(){
-        it("should check my GIF image", function(){
+        it("should check my visibility of GIF image", function(){
             expect($('#loader')).not.toBeVisible();
             //My GIF loader image is located at the back of my game-field class
         });

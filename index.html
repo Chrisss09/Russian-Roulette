@@ -1,28 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>RUSSIAN ROULETTE</title>
-<!--I have chosen and imported a text style from Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/main.css" type="text/css" />
     <link rel="stylesheet" href="assets/css/media-q.css" type="text/css" />
 </head>
+
 <body>
     <div class="main-title">
         <h2>RUSSIAN ROULETTE</h2>
         <p class="tag-line">Can you catch the Communists?</p>
     </div>
 
-    <div class="game-field"> <!--Creating the layout to my game field-->
-        <!--Adding a gif for when the user resets the game-->
+    <div class="game-field">
         <div id="loader">
             <img src="assets/images/soviet-loader.gif" alt="Resetting board" />
         </div>
-        <div class="card" data-image="stalin"> <!--I have used a data attribute for each card to help me create a match-->
+        <div class="card" data-image="stalin">
             <img class="face" src="assets/images/0.jpg" alt="Stalin" />
             <img class="back-card" src="assets/images/card-bg.jpg" alt="Card face down (Soviet logo)" />
         </div>
@@ -71,14 +71,14 @@
             <img class="back-card" src="assets/images/card-bg.jpg" alt="Card face down (Soviet logo)" />
         </div>
     </div>
-    
-        <!--I have created a reset button so the player can reset the game at anytime-->
-        <button onclick="resetButton()" class="btn-reset">Reset</button>
 
-<!--I have imported the jQuery CDN so I can style this on my game-->
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
-<!--Here I have connected my JS pages-->
+    <button onclick="resetButton()" class="btn-reset">Reset</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>

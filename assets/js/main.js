@@ -98,8 +98,6 @@ var btnModal = document.getElementById("btn-instr");
 
 var btnClose = document.getElementsByClassName("btn-close")[0];
 
-var btnConfirm = document.getElementById("btn-ok");
-
 
 btnModal.addEventListener("click", openModal);
 

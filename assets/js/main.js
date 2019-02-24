@@ -99,3 +99,10 @@ var btnModal = document.getElementById("btn-instr");
 var btnClose = document.getElementById("btn-close");
 
 var btnConfirm = document.getElementById("btn-ok");
+
+
+btnModal.addEventListener("click", openModal);
+
+function openModal(){
+    console.log("Open here");
+}

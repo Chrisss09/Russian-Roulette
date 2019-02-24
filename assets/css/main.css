@@ -180,6 +180,7 @@ body{
 
 .modal-content {
     background-color: gray;
+    font-family: 'Orbitron', sans-serif;
     margin: 10% auto;
     padding: 5px;
     width: 50%;
@@ -203,7 +204,7 @@ body{
     border: solid 2px #fff;
     border-radius: 8px;
     color: white;
-    padding: 11px 32px;
+    padding: 5px 30px;
     text-align: center;
     font-family: 'Orbitron', sans-serif;
     display: block;

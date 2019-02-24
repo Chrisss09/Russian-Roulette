@@ -96,13 +96,19 @@ var modal = document.getElementById("my-modal");
 
 var btnModal = document.getElementById("btn-instr");
 
-var btnClose = document.getElementById("btn-close");
+var btnClose = document.getElementsByClassName("btn-close")[0];
 
 var btnConfirm = document.getElementById("btn-ok");
 
 
 btnModal.addEventListener("click", openModal);
 
+btnClose.addEventListener("click", closeModal);
+
 function openModal(){
     modal.style.display = "block";
+}
+
+function closeModal(){
+    modal.style.display = "none";
 }

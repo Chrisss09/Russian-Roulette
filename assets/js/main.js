@@ -61,7 +61,7 @@ function flipCardBack(){
     }
 }
 
-//Keep flipping after users turn
+// Allows user to take another turn
 function fieldReset(){
     [flippedCard, stopFlip] = [false, false];
     [firstCard, secondCard] = [null, null];

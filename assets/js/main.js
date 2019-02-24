@@ -76,6 +76,8 @@ function fieldReset(){
 
 cards.forEach(square => square.addEventListener('click', flipCard)); 
 
+/*---------------------------Reset game--------------------------*/
+
 function resetButton() {
     location.reload();
 }
@@ -87,3 +89,13 @@ window.addEventListener("load", function(){
     loader.style.width = "100%";
     loader.style.visibility = "hidden";
 });
+
+/*---------------------------Game instructions--------------------------*/
+
+var modal = document.getElementById("my-modal");
+
+var btnModal = document.getElementById("btn-instr");
+
+var btnClose = document.getElementById("btn-close");
+
+var btnConfirm = document.getElementById("btn-ok");

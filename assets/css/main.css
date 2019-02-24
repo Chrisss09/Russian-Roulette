@@ -159,7 +159,7 @@ body{
     color: white;
     padding: 2px 2px;
     text-align: center;
-    display: block;
+    display: inline-block;
     font-size: 30px;
     cursor: pointer;
 }
@@ -176,6 +176,25 @@ body{
     width: 100%;
     overflow: auto;
     background-color: rgba(0,0,0,0.5);
+}
+
+.modal-content {
+    background-color: gray;
+    margin-top: -10px!important;
+    padding: 10px;
+    width: 70%;
+    box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
+}
+
+.btn-close {
+    color: red;
+    float: right;
+    font-size: 20px;
+}
+
+.btn-close:focus {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 /*---------------------------Media Queries--------------------------*/

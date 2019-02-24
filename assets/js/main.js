@@ -90,7 +90,7 @@ window.addEventListener("load", function(){
     loader.style.visibility = "hidden";
 });
 
-/*---------------------------Game instructions--------------------------*/
+/*---------------------------Game instructions with modal--------------------------*/
 
 var modal = document.getElementById("my-modal");
 
@@ -104,5 +104,5 @@ var btnConfirm = document.getElementById("btn-ok");
 btnModal.addEventListener("click", openModal);
 
 function openModal(){
-    console.log("Open here");
+    modal.style.display = "block";
 }

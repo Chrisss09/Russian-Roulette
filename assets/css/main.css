@@ -231,6 +231,12 @@ body{
     }
 }
 
+@media all and (max-width: 1124px) {
+    .modal-content {
+        margin: 15% auto;
+    }
+}
+
 @media all and (max-width: 709px) {
     [class*="card"] {
         width: 155px;
@@ -243,6 +249,9 @@ body{
     .game-field {
         width: 660px;
         height: 475px;
+    }
+    .modal-content {
+        margin: 20% auto;
     }
 }
 
@@ -327,6 +336,12 @@ body{
     }
 }
 
+@media all and (max-width: 537px) {
+    .modal-content {
+        margin: 25% auto;
+    }
+}
+
 @media all and (max-width: 526px) {
     [class*="card"] {
         width: 105px;
@@ -378,6 +393,12 @@ body{
     }
     .condition {
         font-size: 28px;
+    }
+}
+
+@media all and (max-width: 436px) {
+    .modal-content>p {
+        font-size: 15px;
     }
 }
 
@@ -453,6 +474,13 @@ body{
     }
 }
 
+@media all and (max-width: 368px) {
+    .modal-content>p {
+        font-size: 14px;
+    }
+}
+
+
 @media all and (max-width: 354px) {
     [class*="card"] {
         width: 70px;
@@ -468,6 +496,12 @@ body{
     }
     .condition {
         font-size: 21px;
+    }
+}
+
+@media all and (max-width: 344px) {
+    .modal-content>p {
+        font-size: 13px;
     }
 }
 
@@ -518,6 +552,12 @@ body{
     }
 }
 
+@media all and (max-width: 299px) {
+    .modal-content>p {
+        font-size: 12px;
+    }
+}
+
 @media all and (max-width: 293px) {
     [class*="card"] {
         width: 55px;
@@ -537,6 +577,12 @@ body{
     .btn-reset {
         padding: 5px 19px;
         font-size: 14px;
+    }
+}
+
+@media all and (max-width: 276px) {
+    .modal-content>p {
+        font-size: 11px;
     }
 }
 
@@ -562,8 +608,6 @@ body{
     }
 }
 
-
-
 @media all and (max-width: 253px) {
     [class*="card"] {
         width: 45px;
@@ -583,6 +627,12 @@ body{
     .btn-reset {
         padding: 5px 19px;
         font-size: 14px;
+    }
+}
+
+@media all and (max-width: 241px) {
+    .modal-content>p {
+        font-size: 10px;
     }
 }
 
@@ -643,6 +693,12 @@ body{
     }
 }
 
+@media all and (max-width: 208px) {
+    .modal-content>p {
+        font-size: 9px;
+    }
+}
+
 @media all and (max-width: 193px) {
     [class*="card"] {
         width: 30px;
@@ -668,6 +724,17 @@ body{
 @media all and (max-width: 189px) {
     .main-title h2, .tag-line {
         font-size: 18px;
+    }
+}
+
+@media all and (max-width: 183px) {
+    .modal-content>p {
+        font-size: 8px;
+        padding: 0;
+        margin: 2px;
+    }
+    .modal-header {
+        font-size: 10px;
     }
 }
 

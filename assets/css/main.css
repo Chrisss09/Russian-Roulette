@@ -231,12 +231,6 @@ body{
     }
 }
 
-@media all and (max-width: 1124px) {
-    .modal-content {
-        margin: 15% auto;
-    }
-}
-
 @media all and (max-width: 709px) {
     [class*="card"] {
         width: 155px;
@@ -249,9 +243,6 @@ body{
     .game-field {
         width: 660px;
         height: 475px;
-    }
-    .modal-content {
-        margin: 20% auto;
     }
 }
 
@@ -333,12 +324,6 @@ body{
     }
     .condition {
         font-size: 34px;
-    }
-}
-
-@media all and (max-width: 537px) {
-    .modal-content {
-        margin: 25% auto;
     }
 }
 
@@ -549,6 +534,12 @@ body{
     .btn-reset {
         padding: 5px 19px;
         font-size: 14px;
+    }
+}
+
+@media all and (max-width: 309px) {
+    .modal-content>p {
+        font-size: 12px;
     }
 }
 

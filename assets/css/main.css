@@ -551,6 +551,9 @@ body{
         padding: 5px 19px;
         font-size: 14px;
     }
+    .modal-content>p {
+        font-size: 12px;
+    }
 }
 
 @media all and (max-width: 273px) {

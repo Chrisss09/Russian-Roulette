@@ -183,7 +183,7 @@ body{
     font-family: 'Orbitron', sans-serif;
     margin: 10% auto;
     padding: 0;
-    width: 50%;
+    width: 80%;
     box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgb(0,0,0,0.17);
 }
 
@@ -484,12 +484,6 @@ body{
     }
 }
 
-@media all and (max-width: 344px) {
-    .modal-content>p {
-        font-size: 13px;
-    }
-}
-
 @media all and (max-width: 339px) {
     .btn-reset {
         padding: 7px 21px;
@@ -537,18 +531,6 @@ body{
     }
 }
 
-@media all and (max-width: 309px) {
-    .modal-content>p {
-        font-size: 12px;
-    }
-}
-
-@media all and (max-width: 299px) {
-    .modal-content>p {
-        font-size: 12px;
-    }
-}
-
 @media all and (max-width: 293px) {
     [class*="card"] {
         width: 55px;
@@ -568,12 +550,6 @@ body{
     .btn-reset {
         padding: 5px 19px;
         font-size: 14px;
-    }
-}
-
-@media all and (max-width: 276px) {
-    .modal-content>p {
-        font-size: 11px;
     }
 }
 
@@ -618,12 +594,6 @@ body{
     .btn-reset {
         padding: 5px 19px;
         font-size: 14px;
-    }
-}
-
-@media all and (max-width: 241px) {
-    .modal-content>p {
-        font-size: 10px;
     }
 }
 

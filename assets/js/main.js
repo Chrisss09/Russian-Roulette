@@ -26,7 +26,7 @@ function flipCard() {
 }
 
 function checkMatch(){
-    let isMatch =  firstCard.dataset.image === secondCard.dataset.image;
+    let isMatch = firstCard.dataset.image === secondCard.dataset.image;
 
     isMatch ? matchedCard() : flipCardBack();
 }
@@ -58,6 +58,9 @@ function flipCardBack(){
             $('.card').hide();
             $('.game-field').addClass("new-field-lose").append(`<p class="condition">You Lose - The Communists have escaped!</p>`);
         });
+    }
+    else if(noMatches === 1, noMatches++) {
+        console.log("Hello");
     }
 }
 

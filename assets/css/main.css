@@ -165,7 +165,7 @@ body{
     cursor: pointer;
 }
 
-.container {
+#scoreboard {
     margin: 0 auto!important;
     background-color: red; 
     border: solid 2px #fff;

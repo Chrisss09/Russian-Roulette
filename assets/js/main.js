@@ -54,8 +54,9 @@ function flipCardBack(){
     }, 700);
     // Player has 8 false moves
     scoreBoard += 1;
-    if(scoreBoard === 1, scoreBoard++) {
-        console.log("Hello");
+    if(scoreBoard === 1, scoreBoard) {
+        var container = document.getElementById("scoreboard");
+        container.innerHTML = scoreBoard;
     }
     noMatches += 1;
     if(noMatches === 8) {

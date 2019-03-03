@@ -52,12 +52,12 @@ function flipCardBack(){
         secondCard.classList.remove("flip"); 
         fieldReset();
     }, 700);
-    // Player has 8 false moves
     scoreBoard += 1;
     if(scoreBoard === 1, scoreBoard) {
         var container = document.getElementById("scoreboard");
         container.innerHTML = scoreBoard;
     }
+    // Player has 8 false moves
     noMatches += 1;
     if(noMatches === 8) {
         $(document).ready(function(){

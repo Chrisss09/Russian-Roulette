@@ -4,6 +4,7 @@ let flippedCard = false; // This is false because this is the first card.
 let stopFlip = false; //Stops other cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
 let noMatches = 0;
+let scoreBoard = 0;
 let gameWon = 0;
 
 function flipCard() {
@@ -52,15 +53,16 @@ function flipCardBack(){
         fieldReset();
     }, 700);
     // Player has 8 false moves
+    scoreBoard += 1;
+    if(scoreBoard === 1, scoreBoard++) {
+        console.log("Hello");
+    }
     noMatches += 1;
     if(noMatches === 8) {
         $(document).ready(function(){
             $('.card').hide();
             $('.game-field').addClass("new-field-lose").append(`<p class="condition">You Lose - The Communists have escaped!</p>`);
         });
-    }
-    else if(noMatches === 1, noMatches++) {
-        console.log("Hello");
     }
 }
 

@@ -167,25 +167,18 @@ body{
     cursor: pointer;
 }
 
-.container {
-    display: inline-block;
-    text-align:center;
-    padding: 4px 8px;
-}
-
 #scoreboard {
     margin: 0 auto!important;
     background-color: red; 
     border: solid 2px #fff;
     border-radius: 8px;
     color: white;
-    font-family: 'Orbitron', sans-serif;
+    padding: 4px 20px;
     text-align: center;
     display: inline-block;
     font-size: 30px;
-    width: 60px;
-    height: 40px;
 }
+
 /*---------------------------Modal--------------------------*/
 
 .modal {

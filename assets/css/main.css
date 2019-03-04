@@ -174,10 +174,11 @@ body{
     border-radius: 8px;
     color: white;
     font-family: 'Orbitron', sans-serif;
-    padding: 2px 4px;
     text-align: center;
     display: inline-block;
     font-size: 30px;
+    width: 60px;
+    height: 40px;
 }
 
 /*---------------------------Modal--------------------------*/

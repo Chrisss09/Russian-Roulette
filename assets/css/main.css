@@ -167,6 +167,12 @@ body{
     cursor: pointer;
 }
 
+.container {
+    display: inline-block;
+    text-align:center;
+    padding: 4px 8px;
+}
+
 #scoreboard {
     margin: 0 auto!important;
     background-color: red; 
@@ -180,7 +186,6 @@ body{
     width: 60px;
     height: 40px;
 }
-
 /*---------------------------Modal--------------------------*/
 
 .modal {

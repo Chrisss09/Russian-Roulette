@@ -4,7 +4,7 @@ let flippedCard = false; // This is false because this is the first card.
 let stopFlip = false; //Stops other cards flipping over whilst other cards are flipping over
 let firstCard, secondCard;
 let noMatches = 0;
-let scoreBoard = 0;
+let scoreBoard = 8;
 let gameWon = 0;
 
 function flipCard() {
@@ -52,7 +52,7 @@ function flipCardBack(){
         secondCard.classList.remove("flip"); 
         fieldReset();
     }, 700);
-    scoreBoard += 1;
+    scoreBoard -= 1;
     if(scoreBoard === 1, scoreBoard) {
         var container = document.getElementById("scoreboard");
         container.innerHTML = scoreBoard;
@@ -63,6 +63,7 @@ function flipCardBack(){
         $(document).ready(function(){
             $('.card').hide();
             $('.game-field').addClass("new-field-lose").append(`<p class="condition">You Lose - The Communists have escaped!</p>`);
+            $('#scoreboard').text("0");
         });
     }
 }

@@ -61,6 +61,9 @@
 
 <p>I have sent the link to my family and friends as well as students on the course to test out and I received positive feedback. I have also played the game many times to test if everything works such as for the win and loss rules of the game.</p>
 
+<p>Instead of using Jasmine I will manual test all my functions to check they are working as they should.</p>
+<p>Testing my variable 'let flippedCard = false' I commented this out and ran my game. Without this variable when my cards flipped over they stay flipped over even if they are false, this shows this is working correctly.</p>
+
 <h4>Mobile Response</h4>
 
 <p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on. I have tested the mobile response on an actual Samsung phone and a couple of different Iphones, plus the different options with the Google developer tools, and all works as it should.</p>

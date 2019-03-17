@@ -63,6 +63,12 @@
 
 <p>Instead of using Jasmine I will manual test all my functions to check they are working as they should.</p>
 <p>Testing my variable 'let flippedCard = false' I commented this out and ran my game. Without this variable when my cards flipped over they stay flipped over even if they are false, this shows this is working correctly.</p>
+<p>Testing my variable 'let stopFlip = false' I commented this out and ran my game. This did not allow me to flip any cards over which proves this is working as it should.</p>
+<p>Testing my variable 'let firstCard, secondCard' I again commented this out and ran my game. This resulted in the same test as last and no cards couldn't flip.</p>
+<p>Next I tested my 'flipCard' function, I commented this out and ran my game to reveal my gif underneath my cards. This shows my function does work. Further testing in my flipCard function I commented out 'if (stopFlip) return' and this allowed my to keep clicking on cards as they were turning so this is what you don't want.</p>
+<p>I then commented out 'this.classList.add('flip')' which then did not allow me to flip any cards.</p>
+<p>I then tested my 'if(!flippedCard)' which like before revealed my gif image.</p>
+<p>Last in this function I tested 'flippedCard = false' and 'secondCard = this' and then when I ran my code every time I flipped a card even if they were a pair they did not turn back around.</p>
 
 <h4>Mobile Response</h4>
 

@@ -23,7 +23,9 @@
 
 <p>For this project I had more ideas to expand my game that I would like to look into in the future but I felt I was running out of time. I would of liked to have created a new box underneath the game and when the user would click on a card the box will then show their name and create a match. Also I would of liked to add some sound to the game, if you lose I would have the Soviet National Anthem play and if you win the Russian National Anthem would play.</p>
 
-<p>After my final call with my mentor he asked me to add extra features to my game which after adding them I was really pleased with. He asked me to create some instructions to the user on how to plat them. I added a red button and using Bootstrap's Font Awesome I added a question mark symbol and I created a model using Javascript, so then the user can click on the question mark and the instructions will pop up and I have also created a scenario for the user.</p>
+<p>After my final call with my mentor he asked me to add extra features to my game which after adding them I was really pleased with. He asked me to create some instructions to the user on how to plat them. I added a red button and using Bootstrap's Font Awesome I added a question mark symbol and I created a model using Javascript after watching a tutorial by Traversy Media. So then the user can click on the question mark and the instructions will pop up and I have also created a scenario for the user.</p>
+
+<p>Another addition my mentor asked me to add was to make a scoreboard for the number of turns. So I created another square next to my instructions button. I tried to do this myself as I knew this would go under my flipCardBack function and after an old post on Stack Overflow I got this working by creating a new variable. At first I set this to 0 and after each failed pairing it would count up to 8 and then it would be game over. After awhile I thought it would be best to have it counting down, so I set the default value to 8 and after several attempts and tests I got it counting down from 8, and I used JQuery to set it to 0 once the game was over.</p>
 
 <h2>Technologies used</h2>
 

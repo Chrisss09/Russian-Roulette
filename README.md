@@ -75,7 +75,8 @@
 <p>I then moved onto my 'matchedCard' function and I commented it all out and ran my game. And as expected the game played as normal, it flipped and paired cards but when it got to the end where all cards were flipped, it did not add my win class, so this test passed.</p>
 
 <p>Next I tested my 'flipCardBack' function and I commented out the fieldReset function and I then ran my game. I was allowed to click on two cards but then as per my function the field would not reset, so this tested has passed.</p>
-<p>I then tested my 'scoreBoard' function by commenting it all out and ran my game and as expected this passed and due to the countdown not going down when failed to match together.</p>
+<p>I then tested my 'scoreBoard' function by commenting it all out and ran my game and as expected this passed and due to the countdown not going down when failed to match together. I then further tested this by just commenting out my 'var container' variable and this also passed due to the score not decreasing.</p>
+<p>I then tested my 'noMatches' variable by commenting it out and then I ran my game, and as I expected the no matches ran forever and there was no game over, so this test passed.</p>
 
 <h4>Mobile Response</h4>
 

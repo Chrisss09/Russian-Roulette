@@ -70,6 +70,13 @@
 <p>I then tested my 'if(!flippedCard)' which like before revealed my gif image.</p>
 <p>Last in this function I tested 'flippedCard = false' and 'secondCard = this' and then when I ran my code every time I flipped a card even if they were a pair they did not turn back around.</p>
 
+<p>Next I moved onto my 'checkMatch' function and to check this I commented it all out and ran my game. As expected all cards flipped but no matches were made and all cards stayed flipped</p>
+
+<p>I then moved onto my 'matchedCard' function and I commented it all out and ran my game. And as expected the game played as normal, it flipped and paired cards but when it got to the end where all cards were flipped, it did not add my win class, so this test passed.</p>
+
+<p>Next I tested my 'flipCardBack' function and I commented out the fieldReset function and I then ran my game. I was allowed to click on two cards but then as per my function the field would not reset, so this tested has passed.</p>
+<p>I then tested my 'scoreBoard' function by commenting it all out and ran my game and as expected this passed and due to the countdown not going down when failed to match together.</p>
+
 <h4>Mobile Response</h4>
 
 <p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on. I have tested the mobile response on an actual Samsung phone and a couple of different Iphones, plus the different options with the Google developer tools, and all works as it should.</p>

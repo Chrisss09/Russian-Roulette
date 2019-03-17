@@ -11,10 +11,10 @@
 
 <h2>Features</h2>
 
-<p>The main feature to my game is to allow the user to click on a card and for it to flip over. I have done this by adding a transform rotate property with a 3D effect. Also I have added a reset button for the user to restart the game at any point.</p>
-<p>To make my game more fun, and professional everytime the user clicks on the reset button I have added in a GIF image of a moving Soviet flag.</p>
+<p>The main feature to my game is to allow the user to click on a card and for it to flip over. I have done this by adding a transform rotate property with a 3D effect. Also I have added a reset button for the user to restart the game at any point and to do this I have used Javascript.</p>
+<p>To make my game more fun, and professional, everytime the user clicks on the reset button I have added in a GIF image of a moving Soviet flag.</p>
 <p>To make my game interactive I have used Javascript programming and this will tell the computer on how we can identify two pairs such as using my checkMatch function which uses my dataset attribute.</p>
-<p>I have also created a shuffle feature which will shuffle every position of the cards everytime the game gets reset.</p>
+<p>I have also created a shuffle function which will shuffle every position of the cards everytime the game gets reset.</p>
 <p>I have added in a winning page using JS and JQuery. Once the user has flipped all the cards the JQuery will add another class I have created and replace the field with a winning photo.</p>
 <p>I have also set a rule for losing the game. If the user is unsuccessful in 8 turns then that is game over and you would lose. I have then applied the same rules for this but I have made a rule class and the JQuery can add the lose class when you have lost.</p>
 <p>I have also thought about how the user would lose, I have set this to 8 because this gives the user plenty of chances to win, this is a memory game and not a competitive game. With 6 turns the user will then have seen every card and may have matched a few up along the way and then that leaves two more turns for the user to succeed. I did have it on 9 turns but after testing it for a while I thought 9 was too easy so I changed it to 8.</p>

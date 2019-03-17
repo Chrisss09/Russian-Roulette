@@ -78,6 +78,10 @@
 <p>I then tested my 'scoreBoard' function by commenting it all out and ran my game and as expected this passed and due to the countdown not going down when failed to match together. I then further tested this by just commenting out my 'var container' variable and this also passed due to the score not decreasing.</p>
 <p>I then tested my 'noMatches' variable by commenting it out and then I ran my game, and as I expected the no matches ran forever and there was no game over, so this test passed.</p>
 
+<p>I then got to my 'fieldReset' function which was added in to allow the game to keep going after the first turn. So when I commented this out and ran my game this was exactly what happend, I was unable to flip other cards after the first turn, so this test passed.</p>
+
+<p>I then tested my shuffle function created called 'shuffleSelection' I commented this out and ran my game. And as expected all cards were in the same place and with their pairs. I then kept resetting the game and also as expected they were in the same place, so this function was and test passed.</p>
+
 <h4>Mobile Response</h4>
 
 <p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on. I have tested the mobile response on an actual Samsung phone and a couple of different Iphones, plus the different options with the Google developer tools, and all works as it should.</p>

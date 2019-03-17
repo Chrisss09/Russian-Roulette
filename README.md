@@ -82,6 +82,10 @@
 
 <p>I then tested my shuffle function created called 'shuffleSelection' I commented this out and ran my game. And as expected all cards were in the same place and with their pairs. I then kept resetting the game and also as expected they were in the same place, so this function was and test passed.</p>
 
+<p>After the main part of testing my game completed I moved onto testing my reset button. I commented the 'resetButton' function out and ran my game and it did not allow me to reset my game at any point, so this test passed.</p>
+<p>Then testing my loading gif I commented the Javascript out and then ran my game and then as expected this did not run properly the flag's visibility was showing and it was on top of my cards. So this passed the test.</p>
+<p>Next I ran some tests for my modal, first I commented out my variable 'var modal = document.getElementById("my-modal")' and as expected when click on my button this did not show up. I then tested my 'var btnModal = document.getElementById("btn-instr")' and again my modal did not show up when clicked on. I then tested 'var btnClose = document.getElementsByClassName("btn-close")[0]' which was the 'x' on the modal and as expected the close button did not work, so this test passed as did all the functions for my modal.</p>
+
 <h4>Mobile Response</h4>
 
 <p>For this project I have created a seperate CSS page for my mobile response due to the amount I have added. Due to the simplicity of the game I have not changed anything such as hiding anything when on small screens. The mobile response just makes the title of the game smaller and the game board either bigger or smaller depending on what you play it on. I have tested the mobile response on an actual Samsung phone and a couple of different Iphones, plus the different options with the Google developer tools, and all works as it should.</p>
@@ -114,7 +118,7 @@
 <h4>Media</h4>
 
 <p>The photos I used for my game I downloaded from Google Images and I selected the small image sizes because I only needed the small pictures.</p>
-<p>To get my GIF image I got this through Google but on a site call Giphy.</p>
+<p>To get my GIF image I got this through Google but on a site called Giphy.</p>
 
 <h4>Acknowledgements</h4>
 

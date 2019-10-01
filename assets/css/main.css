@@ -125,6 +125,7 @@ body{
 .face, .back-card {
     width: 138px;
     height: 130px;
+    z-index: 2;
     position: absolute;
     -webkit-backface-visibility: hidden; 
     -moz-backface-visibility: hidden;

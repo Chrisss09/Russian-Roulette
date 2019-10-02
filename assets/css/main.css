@@ -136,7 +136,7 @@ body{
 }
 
 .face {
-    z-index: 2;
+    z-index: 1;
     -webkit-transform: rotateY(180deg); 
     -moz-transform: rotateY(180deg);
     -ms-transform: rotateY(180deg);
